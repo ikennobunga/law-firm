@@ -24,7 +24,7 @@
 
 <style scoped>
 .image1{
-    background-size: cover;
+  background-size: cover;
 }
 </style>
 

@@ -4,6 +4,7 @@
       <div class="plot1" elevation-20>
         <Home
           image="https://images.pexels.com/photos/404986/pexels-photo-404986.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+          height="817px"
           title="the coon"
           previewText="Awesome place"/>
       </div>
@@ -65,7 +66,7 @@
         <div class="card1">
           <card
            image1="https://images.unsplash.com/photo-1505845297973-ae7a996087c4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=29279d22b397388577cb213f474f0463&auto=format&fit=crop&w=900&q=60"
-           title="Summer"
+           title="Summer Time"
            textPreview="Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ipsam saepe facilis, itaque ullam nulla repudiandae rerum eligendi repellendus officiis autem similique id in cum porro eaque earum tempore molestias."/>
          </div>
          <div class="card2">
@@ -81,6 +82,25 @@
             textPreview="Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ipsam saepe facilis, itaque ullam nulla repudiandae rerum eligendi repellendus officiis autem similique id in cum porro eaque earum tempore molestias."/>
          </div>
       </div>
+      <div class="contentText3">
+        <p class="contentPara1">
+          <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</span> Aliquam veniam iure asperiores quos? Velit consequuntur dolore distinctio numquam debitis aut quam ad, quia ex laudantium unde non delectus assumenda similique.
+          Sed, voluptas, beatae cumque laboriosam vero ipsum nobis qui repellat quos consectetur, veniam laudantium neque nam quasi saepe dignissimos dolore quisquam modi temporibus impedit itaque veritatis nemo doloremque! Quos, impedit!
+          Vero pariatur debitis commodi repellendus voluptatibus ratione. Quia fugiat, iure dignissimos sunt deleniti expedita! Reprehenderit magni odit et dolore libero beatae veniam culpa hic. Sunt exercitationem quod voluptatum magnam omnis.
+        </p>
+      </div>
+    </div>
+
+    <div class="article3">
+      <div class="content3">
+        <div class="contentText4">
+          <h1>What To Expect</h1>
+        </div>
+        <div class="article3pic">
+          <home class="elevation-22"
+           image="https://images.unsplash.com/photo-1523612192437-66de9804ac3c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=59310f54610ead00fcc3d07732d5d473&auto=format&fit=crop&w=900&q=60"/>
+       </div>
+      </div>
     </div>
   </v-app>
 </template>
@@ -88,10 +108,12 @@
 <script>
 import Home from '@/components/Home'
 import Card from '@/components/Card'
+import Card2 from '@/components/Card2'
 export default {
   components: {
     Home,
-    Card
+    Card,
+    Card2
   }
 }
 </script>
@@ -108,7 +130,8 @@ export default {
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(10, 1fr);
   background-color: #343233;
-  height: 900px;
+  height: 820px;
+  position: fixed;
 }
 .plot1{
   grid-column: 1 / span 9;
@@ -128,7 +151,8 @@ export default {
   grid-template-rows: repeat(12, 1fr);
   grid-column-gap: 5px;
   grid-row-gap: 5px;
-  height: 670px;
+  height: 665px;
+  margin-bottom: 50px; 
 }
 .home{
   grid-column: 1 / span 3;
@@ -162,9 +186,9 @@ export default {
   align-items: center;
   border: 1px solid #4D4B4D;
 }
-.image{
+.plot1 .image{
   width: 100%;
-  height: 817px;
+  height: 810px;
   background-size: cover;
   color: aliceblue;
 }
@@ -175,6 +199,8 @@ export default {
   grid-template-rows: repeat(20, 1fr);
   background-color: #343233;  
   height: 1000px;
+  position: relative;
+  margin-top: 820px;
 }
 .content1{
   grid-column: 3 / span 8;
@@ -258,6 +284,7 @@ export default {
   grid-template-rows: repeat(20, 1fr);
   background-color: #343233;
   height: 1000px;
+  position: relative;
 }
 .contentText2{
   grid-column: 7 / span 6;
@@ -289,6 +316,48 @@ export default {
   grid-column: 9 / span 4;
   grid-row: 1 / span 12;
   background-color: #86BADC;
+}
+.contentText3{
+  grid-column: 3 / span 6;
+  grid-row: 15 / span 3;
+  color: #E9DAB9;
+  text-align: center;
+  font-size: 17px;
+}
+/*--------------------ARTICLE3--------------------*/
+.article3{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+  background-color: #343233;
+  height: 1000px;
+  position: relative;
+}
+.content3{
+  grid-column: 1 / span 12;
+  grid-row: 1 / span 20; 
+  background-color: #EDEAE3;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(14, 1fr);
+}
+.contentText4{
+  grid-column: 3 / span 8;
+  grid-row: 1 / span 2;
+  font-family: 'Candal', sans-serif;
+  font-size: 50px;
+  color: rgba(233, 218, 185, 0.966);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.article3pic{
+  grid-column: 2 / span 12;
+  grid-row: 3 / span 7;
+}
+.article3pic .image{
+  height: 100%;
+  background-size: cover;
 }
 </style>
 
