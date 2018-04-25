@@ -101,6 +101,36 @@
            image="https://images.unsplash.com/photo-1523612192437-66de9804ac3c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=59310f54610ead00fcc3d07732d5d473&auto=format&fit=crop&w=900&q=60"/>
        </div>
       </div>
+
+      <div class="content4">
+        <div class="cardPlain1">
+          <card2
+           title="Commitment"
+           previewText="Cupcake ipsum dolor sit amet. Tart jujubes.Cupcake ipsum dolor sit amet. Tart jujubes.Cupcake ipsum dolor sit amet. Tart jujubes.Cupcake ipsum dolor sit amet. Tart jujubes.Cupcake ipsum dolor sit amet. Tart jujubesCupcake ipsum dolor sit amet."
+           btnText="More"/>
+        </div>
+        <div class="cardPlain2">
+          <card2
+           title="Trust"
+           previewText="Cupcake ipsum dolor sit amet. Tart jujubes.Cupcake ipsum dolor sit amet. Tart jujubes.Cupcake ipsum dolor sit amet. Tart jujubes.Cupcake ipsum dolor sit amet. Tart jujubes.Cupcake ipsum dolor sit amet. Tart jujubesCupcake ipsum dolor sit amet."
+           btnText="More"
+           />
+        </div>
+        <div class="cardPlain3">
+          <card2
+           title="Details"
+           previewText="Cupcake ipsum dolor sit amet. Tart jujubes.Cupcake ipsum dolor sit amet. Tart jujubes.Cupcake ipsum dolor sit amet. Tart jujubes.Cupcake ipsum dolor sit amet. Tart jujubes.Cupcake ipsum dolor sit amet. Tart jujubesCupcake ipsum dolor sit amet."
+           btnText="More"
+           />
+        </div>
+        <div class="cardPlain4">
+          <card2
+           title="Friendship"
+           previewText="Cupcake ipsum dolor sit amet. Tart jujubes.Cupcake ipsum dolor sit amet. Tart jujubes.Cupcake ipsum dolor sit amet. Tart jujubes.Cupcake ipsum dolor sit amet. Tart jujubes.Cupcake ipsum dolor sit amet. Tart jujubesCupcake ipsum dolor sit amet."
+           btnText="More"
+           />
+        </div>
+      </div>
     </div>
   </v-app>
 </template>
@@ -358,6 +388,33 @@ export default {
 .article3pic .image{
   height: 100%;
   background-size: cover;
+}
+.content4{
+  grid-column: 2 / span 12;
+  grid-row: 16 / span 5;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  grid-column-gap: 5px;
+}
+.cardPlain1{
+  grid-column: 1 / span 3;
+  grid-row: 1 / span 8;
+  background-color: #4D4B4D
+}
+.cardPlain2{
+  grid-column: 4 / span 3;
+  grid-row: 1 / span 8;
+  background-color: #F1948F;
+}
+.cardPlain3{
+  grid-column: 7 / span 3;
+  grid-row: 1 / span 8;
+  background-color: #39465B;
+}
+.cardPlain4{
+  grid-column: 10 / span 3;
+  grid-row: 1 / span 8;
 }
 </style>
 
