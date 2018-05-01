@@ -14,13 +14,30 @@
 
     <div class="article">
       <div class="articleText1">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis aut dolorum numquam, eius quam soluta ad ab explicabo totam ipsa ullam iure, doloribus amet laboriosam facilis ducimus quod? Nulla, porro.</p>
+        <p><span class="bold">Lorem ipsum dolor consectetur</span> adipisicing elit. Quis aut dolorum numquam,eius quam soluta ad ab explicabo totam ipsa ullam iure, doloribus amet laboriosam facilis ducimus quod? Nulla, porro.</p>
       </div>
       <div class="articleText2">
         <h1>What We Do.</h1>
       </div>
       <div class="cards">
+        <div class="cardsPic1">
 
+        </div>
+        <div class="cardsPic2">
+          
+        </div>
+        <div class="cardsPic3">
+          
+        </div>
+        <div class="cardsPic4">
+          
+        </div>
+        <div class="cardsPic5">
+          
+        </div>
+        <div class="cardsPic6">
+          
+        </div>
       </div>
       <div class="articleText3">
         <h1>Clients Say.</h1>
@@ -37,7 +54,7 @@
         </div>
       </div>
       <div class="footer">
-        <h1>footer</h1>
+        <h1>the footer</h1>
       </div>
     </div>
   </v-app>
@@ -45,9 +62,11 @@
 
 <script>
 import Home from '@/components/Home'
+import Card from '@/components/Card'
 export default {
   components: {
-    Home
+    Home,
+    Card
   }
 }
 </script>
@@ -81,29 +100,76 @@ export default {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(54, 1fr);
-  height: 3500px;
+  height: 3800px;
   background-color: #FFFFFF;
 }
 .articleText1{
-  grid-column: 6 / span 5;
+  grid-column: 5 / span 7;
   grid-row: 3 / span 2;
-  background-color: aquamarine;
   text-align: center;
+  font-size: 18px;
+  color:  #50535E;
+}
+.bold{
+  font-size: 45px;
+  font-weight: 700;
+  font-family: candal;
 }
 .articleText2{
   grid-column: 4 / span 5;
   grid-row: 7 / span 2;
-  background-color: #F1948F;
+  font-size: 35px;
+  font-family: candal;
+  font-weight: 700;
+  color: #50535E;
 }
 .cards{
   grid-column: 7 / span 8;
   grid-row: 9 / span 10;
   border: 15px solid #4A5271;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  grid-gap: 4px;
+}
+.cardsPic1{
+  grid-column: 1 / span 4;
+  grid-row: 1 / span 6;
+  background-color: #F1948F;
+}
+.cardsPic2{
+  grid-column: 5 / span 4;
+  grid-row: 1 / span 6;
+  background-color: #50535E;
+}
+.cardsPic3{
+  grid-column: 9 / span 4;
+  grid-row: 1 / span 6;
+  background-color: antiquewhite; 
+}
+.cardsPic4{
+  grid-column: 1 / span 4;
+  grid-row: 7 / span 6;
+  background-color: beige;
+}
+.cardsPic5{
+  grid-column: 5 / span 4;
+  grid-row: 7 / span 6;
+  background-color: #888760;
+}
+.cardsPic6{
+  grid-column: 9 / span 4;
+  grid-row: 7 / span 6;
+  background-color: #8CACA1;
 }
 .articleText3{
-  grid-column: 8 / span 4;
+  grid-column: 7 / span 6;
   grid-row: 22 / span 2;
-  background-color: #39465B;
+  font-family: candal;
+  font-weight: 700;
+  font-size: 35px;
+  text-align: right;
+  color: #50535E;
 }
 .card2{
   grid-column: 4 / span 6;
@@ -116,24 +182,29 @@ export default {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 1fr);
-  background-color: #907F78;
+  background-color: #E9DAB9;
 }
 .summeryText{
   grid-column: 1 / span 9;
-  grid-row: 1 / span 3;
-  background-color: #4A5271;
+  grid-row: 1 / span 2;
+  font-family: candal;
+  font-weight: 700;
+  font-size: 35px;
+  color: #50535E;
 }
 .summeryImage{
   grid-column: 2 / span 12;
-  grid-row: 4 / span 7; 
+  grid-row: 3 / span 7; 
   background-color: #F1948F;
 }
 /*----------FOOTER----------*/
 .footer{
   grid-column: 4 / span 9;
   grid-row: 47 / span 8;
+  background-image: url("https://images.unsplash.com/photo-1524671807765-9614d7622fea?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3257d8872c89efc8503e971900467d3d&auto=format&fit=crop&w=900&q=60");
+  
+  background-attachment: fixed;
   background-color: aquamarine;
+  background-size: contain;
 }
 </style>
-
-
