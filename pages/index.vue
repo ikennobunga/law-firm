@@ -43,7 +43,16 @@
         <h1>Clients Say.</h1>
       </div>
       <div class="card2">
+        <div class="card2Pic1">
+          <card
+           image1=""/>
+        </div>
+        <div class="card2Pic2">
 
+        </div>
+        <div class="card2Pic3">
+
+        </div>
       </div>
       <div class="summery">
         <div class="summeryText">
@@ -175,6 +184,25 @@ export default {
   grid-column: 4 / span 6;
   grid-row: 24 / span 8;
   border: 15px solid #4A5271;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  grid-gap: 4px;
+}
+.card2Pic1{
+  grid-column: 1 / span 4;
+  grid-row: 1 / span 12;
+  background-color: #91949D;
+}
+.card2Pic2{
+  grid-column: 5 / span 4;
+  grid-row: 1 / span 12;
+  background-color: #CCCBA3;
+}
+.card2Pic3{
+  grid-column: 9 / span 4;
+  grid-row: 1 / span 12;
+  background-color: #8CACA1;
 }
 .summery{
   grid-column: 4 / span 9;
