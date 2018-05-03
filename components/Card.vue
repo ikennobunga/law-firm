@@ -4,14 +4,17 @@
             <v-card-media
              class="image1" 
              :style="{backgroundImage: 'url('+ image1 +')'}"
-             height="233px">
+             height="250px">
             </v-card-media>
             <v-card-title primary-title>
               <div>
                 <h3 class="headline mb-0">{{ title }}</h3>
-                <div>{{ textPreview }}</div>
+                <div class="mt-2">{{ textPreview }}</div>
               </div>
             </v-card-title>
+            <v-card-actions>
+              <v-btn flat color="orange" class="mt-1">Explore</v-btn>
+            </v-card-actions>
           </v-card>
           </v-flex>
 </template>

@@ -45,13 +45,21 @@
       <div class="card2">
         <div class="card2Pic1">
           <card
-           image1=""/>
+           image1="danny-kekspro-341913.jpg"
+            title="Jubilee Insurance"
+            textPreview="One of the best law firm we had a pleasure to partner with! Carlos Otis MD. One of the best law firm we had a pleasure to partner with! Carlos Otis MD. One of the best law firm we had a pleasure to partner with!"/>
         </div>
         <div class="card2Pic2">
-
+          <card
+           image1="/brandon-wong-255543.jpg"
+            title="Jubilee Insurance"
+            textPreview="One of the best law firm we had a pleasure to partner with! Carlos Otis MD. One of the best law firm we had a pleasure to partner with! Carlos Otis MD. One of the best law firm we had a pleasure to partner with!"/>
         </div>
         <div class="card2Pic3">
-
+          <card
+           image1="/florian-wehde-411310.jpg"
+            title="Jubilee Insurance"
+            textPreview="One of the best law firm we had a pleasure to partner with! Carlos Otis MD. One of the best law firm we had a pleasure to partner with! Carlos Otis MD. One of the best law firm we had a pleasure to partner with!"/>
         </div>
       </div>
       <div class="summery">
@@ -59,7 +67,8 @@
           <h1>What to Expect</h1>
         </div>
         <div class="summeryImage">
-
+          <home
+           image="/nathan-dumlao-264380.jpg"/>
         </div>
       </div>
       <div class="footer">
@@ -188,6 +197,7 @@ export default {
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 1fr);
   grid-gap: 4px;
+  overflow: hidden;
 }
 .card2Pic1{
   grid-column: 1 / span 4;
