@@ -1,15 +1,15 @@
 <template>
   <v-app>
-    <div class="hero">
-      <div class="heroImg">
-        <home
-          image="https://images.unsplash.com/photo-1515467068080-b58fdd1a9a66?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f2424faf1c14633e209d99d8a631c992&auto=format&fit=crop&w=900&q=60"
-          />
+    <aside class="sidebar">
+      <div class="sideContent1">
+
       </div>
-    </div>
-    <div class="sidebar">
-        <h1>side nav</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, ex quam expedita totam qui impedit exercitationem magnam necessitatibus repudiandae nostrum? Sequi voluptate mollitia dicta ipsum doloremque in laboriosam sed. Quaerat.</p>
+    </aside>
+    <div class="hero">
+      <div class="heroPic">
+        <home
+       image="/andre-benz-248744.jpg"/>
+      </div>
     </div>
 
     <div class="article">
@@ -28,19 +28,39 @@
            description="Laboriosam, ex quam expedita totam qui impedit exercitationem magnam necessitatibus repudiandae nostrum? Sequi "/>
         </div>
         <div class="cardsPic2">
-          
+          <pic 
+           url="/nathan-dumlao-264380.jpg"
+           title="Tulip"
+           post="Web Developer"
+           description="Laboriosam, ex quam expedita totam qui impedit exercitationem magnam necessitatibus repudiandae nostrum? Sequi "/>
         </div>
         <div class="cardsPic3">
-          
+          <pic 
+           url="/brandon-wong-255543.jpg"
+           title="Tulip"
+           post="Web Developer"
+           description="Laboriosam, ex quam expedita totam qui impedit exercitationem magnam necessitatibus repudiandae nostrum? Sequi "/>
         </div>
         <div class="cardsPic4">
-          
+          <pic 
+           url="/florian-wehde-411310.jpg"
+           title="Tulip"
+           post="Web Developer"
+           description="Laboriosam, ex quam expedita totam qui impedit exercitationem magnam necessitatibus repudiandae nostrum? Sequi "/>
         </div>
         <div class="cardsPic5">
-          
+          <pic 
+           url="/brandon-wong-255543.jpg"
+           title="Tulip"
+           post="Web Developer"
+           description="Laboriosam, ex quam expedita totam qui impedit exercitationem magnam necessitatibus repudiandae nostrum? Sequi "/>
         </div>
         <div class="cardsPic6">
-          
+          <pic 
+           url="/rob-potvin-15730.jpg"
+           title="Tulip"
+           post="Web Developer"
+           description="Laboriosam, ex quam expedita totam qui impedit exercitationem magnam necessitatibus repudiandae nostrum? Sequi "/>
         </div>
       </div>
       <div class="articleText3">
@@ -97,27 +117,39 @@ export default {
 
 
 <style scoped>
-.hero{
-  display: grid;
-  grid-template-columns: 25vw auto;
-  background-color: bisque;
-  height: 800px;
-}
 .sidebar{
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(12, 1fr);
+  background-color: #8CACA1;
+  width: 360px;
+  height: 100%;
   position: fixed;
-  width: 25vw;
-  background-color: #FAFAFA;
-  height: auto;
 }
-.heroImg{
-  grid-column-start: 2;
+.sideContent1{
+  grid-column: 2 / span 4;
+  grid-row: 4 / span 3;
+  background-color: aliceblue;
+}
+.hero{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  /*background-color: #91949D;*/
+  width: 100%;
+  height: 840px;
+  position: absolute;
+  margin-left: 360px;
+  margin-bottom: 0;
+}
+.heroPic{
+  grid-column: 1 / span 9;
+  grid-row: 1 / span 12;
 }
 .image{
+  height: 100%;
+  width: 100%;
   background-size: cover;
-  height: 784px;
 }
 /*----------ARTICLE----------*/
 .article{
@@ -125,6 +157,7 @@ export default {
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(54, 1fr);
   height: 3800px;
+  margin-top: 800px;
   background-color: #FFFFFF;
 }
 .articleText1{
@@ -228,7 +261,7 @@ export default {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 1fr);
-  background-color: #E9DAB9;
+  background-color: #39465B;
 }
 .summeryText{
   grid-column: 1 / span 9;
@@ -236,7 +269,7 @@ export default {
   font-family: candal;
   font-weight: 700;
   font-size: 35px;
-  color: #50535E;
+  color: #EDEAE3;
 }
 .summeryImage{
   grid-column: 2 / span 12;
