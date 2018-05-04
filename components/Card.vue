@@ -1,5 +1,5 @@
 <template>
-   <v-flex xs612>
+   <v-flex xs12>
            <v-card>
             <v-card-media
              class="image1" 
