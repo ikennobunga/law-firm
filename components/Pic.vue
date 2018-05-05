@@ -22,8 +22,8 @@
   overflow: hidden;
   position: relative;
 }
-.ourTeam img{
-  width: 100%;
+.ourTeam img{ 
+  max-width: 100%;
   height: 335px;
   position: relative;
   right: 0;

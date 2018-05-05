@@ -2,13 +2,21 @@
   <v-app>
     <aside class="sidebar">
       <div class="sideContent1">
-
+        <strong>logo goes here</strong>
+      </div>
+      <div class="sideContent2">
+        <h2 class="bold"><nuxt-link to="/about">about</nuxt-link></h2>
+      </div>
+      <div class="sideContent3">
+        <h2 class="bold">practise</h2>
+      </div>
+      <div class="sideContent4">
+        <h2 class="bold">contact</h2>
       </div>
     </aside>
     <div class="hero">
       <div class="heroPic">
-        <home
-       image="/andre-benz-248744.jpg"/>
+        <home image="/andre-benz-248744.jpg"/>
       </div>
     </div>
 
@@ -121,15 +129,49 @@ export default {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(12, 1fr);
-  background-color: #8CACA1;
+  grid-row-gap: 10px;
+  background-color: #FAFAFA;
   width: 360px;
   height: 100%;
   position: fixed;
 }
 .sideContent1{
   grid-column: 2 / span 4;
-  grid-row: 4 / span 3;
+  grid-row: 2 / span 3;
   background-color: aliceblue;
+}
+.sideContent2{
+  grid-column: 3 / span 2;
+  grid-row: 7 / span 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #50535E;
+  background-color: #EDEAE3;
+  background-image: url('/diagonal-lines.svg'); 
+  background-repeat: repeat;
+}
+.sideContent3{
+  grid-column: 3 / span 2;
+  grid-row: 8 / span 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #50535E;
+  background-color: #EDEAE3;
+  background-image: url('/diagonal-lines.svg'); 
+  background-repeat: repeat;
+}
+.sideContent4{
+  grid-column: 3 / span 2;
+  grid-row: 9 / span 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #50535E;
+  background-color: #EDEAE3;
+  background-image: url('/diagonal-lines.svg'); 
+  background-repeat: repeat;
 }
 .hero{
   display: grid;
@@ -140,7 +182,7 @@ export default {
   height: 840px;
   position: absolute;
   margin-left: 360px;
-  margin-bottom: 0;
+  margin-top: -16px;
 }
 .heroPic{
   grid-column: 1 / span 9;
@@ -274,7 +316,7 @@ export default {
 .summeryImage{
   grid-column: 2 / span 12;
   grid-row: 3 / span 7; 
-  background-color: #F1948F;
+  margin-top: -15px;
 }
 .image{
   max-height: 100%;

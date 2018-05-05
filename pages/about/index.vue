@@ -2,7 +2,7 @@
   <v-app>
     <aside class="sidebar">
       <div class="sideContent1">
-
+        
       </div>
     </aside>
     <div class="hero">
