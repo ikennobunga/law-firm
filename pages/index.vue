@@ -8,10 +8,10 @@
         <h2 class="bold"><nuxt-link to="/about">about</nuxt-link></h2>
       </div>
       <div class="sideContent3">
-        <h2 class="bold">practise</h2>
+        <h2 class="bold"><nuxt-link to="/practise">practise</nuxt-link></h2>
       </div>
       <div class="sideContent4">
-        <h2 class="bold">contact</h2>
+        <h2 class="bold"><nuxt-link to="/contact">contact</nuxt-link></h2>
       </div>
     </aside>
     <div class="hero">
