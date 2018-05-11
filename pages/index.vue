@@ -1,20 +1,7 @@
 <template>
   <v-app>
     
-    <aside class="sidebar">
-      <div class="sideContent1">
-        <strong>logo goes here</strong>
-      </div>
-      <div class="sideContent2">
-        <h2 class="bold"><nuxt-link to="/about">about</nuxt-link></h2>
-      </div>
-      <div class="sideContent3">
-        <h2 class="bold"><nuxt-link to="/practise">practise</nuxt-link></h2>
-      </div>
-      <div class="sideContent4">
-        <h2 class="bold"><nuxt-link to="/contact">contact</nuxt-link></h2>
-      </div>
-    </aside>
+    
 
     <div class="hero">
       <div class="heroPic">
@@ -132,7 +119,7 @@ a{
   text-decoration: none;
   color: #50535E;
 }
-.sidebar{
+/*.sidebar{
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(12, 1fr);
@@ -179,7 +166,7 @@ a{
   background-color: #EDEAE3;
   background-image: url('/diagonal-lines.svg'); 
   background-repeat: repeat;
-}
+}*/
 .hero{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
