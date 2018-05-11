@@ -12,10 +12,12 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Candal|Material+Icons' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Candal|Varela+Round|Material+Icons' }
     ]
   },
-  plugins: ['~/plugins/vuetify.js'],
+  plugins: [
+    '~/plugins/vuetify.js'
+  ],
   css: [
     '~/assets/style/app.styl',
     '~/assets/style/main.css'
@@ -28,9 +30,7 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    vendor: [
-      '~/plugins/vuetify.js'
-    ],
+    vendor: [ '~/plugins/vuetify.js' ],
     extractCSS: true,
     /*
     ** Run ESLint on save

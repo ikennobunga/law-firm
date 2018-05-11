@@ -1,5 +1,6 @@
 <template>
   <v-app>
+    
     <aside class="sidebar">
       <div class="sideContent1">
         <strong>logo goes here</strong>
@@ -14,6 +15,7 @@
         <h2 class="bold"><nuxt-link to="/contact">contact</nuxt-link></h2>
       </div>
     </aside>
+
     <div class="hero">
       <div class="heroPic">
         <home image="/andre-benz-248744.jpg"/>
@@ -22,7 +24,8 @@
 
     <div class="article">
       <div class="articleText1">
-        <p><span class="bold">Lorem ipsum dolor consectetur</span> adipisicing elit. Quis aut dolorum numquam,eius quam soluta ad ab explicabo totam ipsa ullam iure, doloribus amet laboriosam facilis ducimus quod? Nulla, porro.</p>
+        <p><span class="bold">Lorem ipsum dolor consectetur</span> </p>
+        <p>adipisicing elit. Quis aut dolorum numquam,eius quam soluta ad ab explicabo totam ipsa ullam iure, doloribus amet laboriosam facilis ducimus quod? Nulla, porro.</p>
       </div>
       <div class="articleText2">
         <h1>What We Do.</h1>
@@ -79,19 +82,19 @@
           <card
            image1="/danny-kekspro-341913.jpg"
            title="Jubilee Insurance"
-           textPreview="One of the best law firm we had a pleasure to partner with! Carlos Otis MD. One of the best law firm we had a pleasure to partner with! Carlos Otis MD. One of the best law firm we had a pleasure to partner with!"/>
+           textPreview="One of the best law firm we had a pleasure to partner with! Carlos Otis MD. One of the best law firm we had a pleasure to partner with! Carlos Otis MD. One of the best law firm we had a pleasure to partner !"/>
         </div>
         <div class="card2Pic2">
           <card
            image1="/brandon-wong-255543.jpg"
            title="Jubilee Insurance"
-           textPreview="One of the best law firm we had a pleasure to partner with! Carlos Otis MD. One of the best law firm we had a pleasure to partner with! Carlos Otis MD. One of the best law firm we had a pleasure to partner with!"/>
+           textPreview="One of the best law firm we had a pleasure to partner with! Carlos Otis MD. One of the best law firm we had a pleasure to partner with! Carlos Otis MD. One of the best law firm we had a pleasure to partner!"/>
         </div>
         <div class="card2Pic3">
           <card
            image1="/florian-wehde-411310.jpg"
            title="Jubilee Insurance"
-           textPreview="One of the best law firm we had a pleasure to partner with! Carlos Otis MD. One of the best law firm we had a pleasure to partner with! Carlos Otis MD. One of the best law firm we had a pleasure to partner with!"/>
+           textPreview="One of the best law firm we had a pleasure to partner with! Carlos Otis MD. One of the best law firm we had a pleasure to partner with! Carlos Otis MD. One of the best law firm we had a pleasure to !"/>
         </div>
       </div>
       <div class="summery">
@@ -125,6 +128,10 @@ export default {
 
 
 <style scoped>
+a{
+  text-decoration: none;
+  color: #50535E;
+}
 .sidebar{
   display: grid;
   grid-template-columns: repeat(6, 1fr);

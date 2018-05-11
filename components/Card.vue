@@ -9,7 +9,7 @@
             <v-card-title primary-title>
               <div>
                 <h3 class="headline mb-0">{{ title }}</h3>
-                <div class="mt-2">{{ textPreview }}</div>
+                <div class="mt-2">" {{ textPreview }} "</div>
               </div>
             </v-card-title>
             <v-card-actions>

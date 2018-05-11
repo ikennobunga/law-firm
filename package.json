@@ -11,6 +11,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "gsap": "^1.20.4",
     "npm": "^5.8.0",
     "nuxt": "^1.0.0",
     "vuetify": "^1.0.0"
