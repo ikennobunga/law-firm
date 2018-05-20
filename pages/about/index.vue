@@ -1,40 +1,32 @@
 <template>
   <v-app>
-    <aside class="sidebar">
-      <div class="sideContent1">
-        
-      </div>
-    </aside>
     <div class="hero">
-      <h3>hero</h3>
+      <h1>the about page</h1>
     </div>
   </v-app>
 </template>
 
+<script>
+export default {
+  data () {
+    return {
+    }
+  },
+  methods: {
+  },
+  computed: {
+  }
+}
+</script>
+
 <style scoped>
-.sidebar{
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(12, 1fr);
-  background-color: #8CACA1;
-  width: 400px;
-  height: 100%;
-  position: fixed;
-}
-.sideContent1{
-  grid-column: 2 / span 4;
-  grid-row: 4 / span 3;
-  background-color: aliceblue;
-}
 .hero{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 1fr);
-  background-color: #91949D;
+  background-color: #4A5271;
   width: 100%;
-  height: 800px;
-  position: absolute;
-  margin-left: 400px;
+  margin-left: 360px;
 }
 </style>
 

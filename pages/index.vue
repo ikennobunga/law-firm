@@ -1,7 +1,5 @@
 <template>
   <v-app>
-    
-    
 
     <div class="hero">
       <div class="heroPic">
@@ -17,7 +15,7 @@
       <div class="articleText2">
         <h1>What We Do.</h1>
       </div>
-      <div class="cards">
+      <div class="cards elevation-10">
         <div class="cardsPic1">
           <pic 
            url="/rob-potvin-15730.jpg"
@@ -64,7 +62,7 @@
       <div class="articleText3">
         <h1>Clients Say.</h1>
       </div>
-      <div class="card2">
+      <div class="card2 elevation-10">
         <div class="card2Pic1">
           <card
            image1="/danny-kekspro-341913.jpg"
@@ -86,17 +84,20 @@
       </div>
       <div class="summery">
         <div class="summeryText">
-          <h1>What to Expect</h1>
+          <h1>What to Expect.</h1>
         </div>
         <div class="summeryImage">
           <home
-           image="/nathan-dumlao-264380.jpg"/>
+           image="/nathan-dumlao-264380.jpg"
+           class="elevation-10"
+           />
         </div>
       </div>
       <div class="footer">
         <h1>the footer</h1>
       </div>
     </div>
+    
   </v-app>
 </template>
 
@@ -115,10 +116,6 @@ export default {
 
 
 <style scoped>
-a{
-  text-decoration: none;
-  color: #50535E;
-}
 /*.sidebar{
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -321,7 +318,6 @@ a{
   grid-column: 4 / span 9;
   grid-row: 47 / span 8;
   background-image: url("https://images.unsplash.com/photo-1524671807765-9614d7622fea?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3257d8872c89efc8503e971900467d3d&auto=format&fit=crop&w=900&q=60");
-  
   background-attachment: fixed;
   background-color: aquamarine;
   background-size: contain;
