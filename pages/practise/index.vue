@@ -13,5 +13,6 @@
 <style scoped>
 .hero{
   background-color: #7A94AC;
+  margin-left: 360px;
 }
 </style>

@@ -110,6 +110,11 @@ export default {
     Home,
     Card,
     Pic
+  },
+  data () {
+    return {
+      boys: [ 'kim', 'dan', 'romeo' ]
+    }
   }
 }
 </script>

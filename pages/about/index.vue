@@ -1,7 +1,9 @@
 <template>
   <v-app>
     <div class="hero">
-      <h1>the about page</h1>
+      <div class="hero-pic">
+        <!--<home image="/people-2941951_1920.jpg"</home>-->
+      </div>
     </div>
   </v-app>
 </template>
@@ -26,7 +28,13 @@ export default {
   grid-template-rows: repeat(12, 1fr);
   background-color: #4A5271;
   width: 100%;
+  height: 840px;
   margin-left: 360px;
+}
+.hero-pic{
+  grid-column: 2 / span 3;
+  grid-row: 2 / span 6;
+  background-color: brown; 
 }
 </style>
 
