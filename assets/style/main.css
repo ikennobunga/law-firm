@@ -5,7 +5,6 @@
     opacity: 0;
     transform-origin: 50% 50%;
   }*/
-
   .page-enter-active {
     animation: acrossIn .45s ease-out both;
   } 

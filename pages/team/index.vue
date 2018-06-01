@@ -43,5 +43,6 @@ export default {
 <style scoped>
 .hero{
   background-color: aquamarine;
+  margin-left: 360px;
 }
 </style>
