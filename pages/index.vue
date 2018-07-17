@@ -1,98 +1,40 @@
 <template>
   <v-app>
-
+    
     <div class="hero">
       <div class="heroPic">
-        <home image="/andre-benz-248744.jpg"/>
+        <home image="/anders-jilden-239-unsplash.jpg"/>
       </div>
     </div>
 
     <div class="article">
       <div class="articleText1">
-        <p><span class="bold">Lorem ipsum dolor consectetur</span> </p>
+        <p><span class="bold">What We Do.</span> </p>
         <p>adipisicing elit. Quis aut dolorum numquam,eius quam soluta ad ab explicabo totam ipsa ullam iure, doloribus amet laboriosam facilis ducimus quod? Nulla, porro.</p>
       </div>
-      <div class="articleText2">
-        <h1>What We Do.</h1>
+
+      <div class="article-img">
+        <img src="/rick-tap-110126.jpg" style="width:100%; height:100%;">
       </div>
-      <div class="cards elevation-10">
-        <div class="cardsPic1">
-          <pic 
-           url="/rob-potvin-15730.jpg"
-           title="Tulip"
-           post="Web Developer"
-           description="Laboriosam, ex quam expedita totam qui impedit exercitationem magnam necessitatibus repudiandae nostrum? Sequi "/>
-        </div>
-        <div class="cardsPic2">
-          <pic 
-           url="/nathan-dumlao-264380.jpg"
-           title="Tulip"
-           post="Web Developer"
-           description="Laboriosam, ex quam expedita totam qui impedit exercitationem magnam necessitatibus repudiandae nostrum? Sequi "/>
-        </div>
-        <div class="cardsPic3">
-          <pic 
-           url="/brandon-wong-255543.jpg"
-           title="Tulip"
-           post="Web Developer"
-           description="Laboriosam, ex quam expedita totam qui impedit exercitationem magnam necessitatibus repudiandae nostrum? Sequi "/>
-        </div>
-        <div class="cardsPic4">
-          <pic 
-           url="/florian-wehde-411310.jpg"
-           title="Tulip"
-           post="Web Developer"
-           description="Laboriosam, ex quam expedita totam qui impedit exercitationem magnam necessitatibus repudiandae nostrum? Sequi "/>
-        </div>
-        <div class="cardsPic5">
-          <pic 
-           url="/brandon-wong-255543.jpg"
-           title="Tulip"
-           post="Web Developer"
-           description="Laboriosam, ex quam expedita totam qui impedit exercitationem magnam necessitatibus repudiandae nostrum? Sequi "/>
-        </div>
-        <div class="cardsPic6">
-          <pic 
-           url="/rob-potvin-15730.jpg"
-           title="Tulip"
-           post="Web Developer"
-           description="Laboriosam, ex quam expedita totam qui impedit exercitationem magnam necessitatibus repudiandae nostrum? Sequi "/>
-        </div>
+      <div class="article-text">
+        <h1>Corporate & Commercial</h1>
+        <div id="line"></div>
+        <p class="article-paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dolorem at aliquam ut magnam veritatis? Enim deleniti, ipsum dolorem culpa impedit blanditiis obcaecati exercitationem adipisci eveniet animi nisi neque earum!
+        </p>
       </div>
-      <div class="articleText3">
-        <h1>Clients Say.</h1>
+
+      <div class="article-img2">
+        <img src="/matt-artz-333274.jpg" style="width:100%; height:100%" alt="">
       </div>
-      <div class="card2 elevation-10">
-        <div class="card2Pic1">
-          <card
-           image1="/danny-kekspro-341913.jpg"
-           title="Jubilee Insurance"
-           textPreview="One of the best law firm we had a pleasure to partner with! Carlos Otis MD. One of the best law firm we had a pleasure to partner with! Carlos Otis MD. One of the best law firm we had a pleasure to partner !"/>
-        </div>
-        <div class="card2Pic2">
-          <card
-           image1="/brandon-wong-255543.jpg"
-           title="Jubilee Insurance"
-           textPreview="One of the best law firm we had a pleasure to partner with! Carlos Otis MD. One of the best law firm we had a pleasure to partner with! Carlos Otis MD. One of the best law firm we had a pleasure to partner!"/>
-        </div>
-        <div class="card2Pic3">
-          <card
-           image1="/florian-wehde-411310.jpg"
-           title="Jubilee Insurance"
-           textPreview="One of the best law firm we had a pleasure to partner with! Carlos Otis MD. One of the best law firm we had a pleasure to partner with! Carlos Otis MD. One of the best law firm we had a pleasure to !"/>
-        </div>
+      <div class="article-text2">
+        <h1>Regulatory & Complience</h1>
+        <div id="line"></div>
+        <p class="article-paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi illo expedita officia cum rem debitis saepe doloremque inventore, amet nemo dignissimos quas facere nostrum facilis aut libero suscipit deleniti necessitatibus?
+        </p>
       </div>
-      <div class="summery">
-        <div class="summeryText">
-          <h1>What to Expect.</h1>
-        </div>
-        <div class="summeryImage">
-          <home
-           image="/nathan-dumlao-264380.jpg"
-           class="elevation-10"
-           />
-        </div>
-      </div>
+      
       <div class="footer">
         <h1>the footer</h1>
       </div>
@@ -102,6 +44,8 @@
 </template>
 
 <script>
+import { TweenMax, Sine } from 'gsap'
+// import { scroll } from '../assets/script/scroll'
 import Home from '@/components/Home'
 import Card from '@/components/Card'
 import Pic from '@/components/Pic'
@@ -110,65 +54,29 @@ export default {
     Home,
     Card,
     Pic
+    // scroll,
+    // Sine
   },
   data () {
     return {
-      boys: [ 'kim', 'dan', 'romeo' ]
+    }
+  },
+  methods: {
+    scroller: function (evt, el) {
+      if (window.scrollY > 50) {
+        TweenMax.to(el, 2, {
+          y: -50,
+          opacity: 1,
+          ease: Sine.easeout
+        })
+      }
+      return window.scrollY > 100
     }
   }
 }
 </script>
 
-
 <style scoped>
-/*.sidebar{
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(12, 1fr);
-  grid-row-gap: 10px;
-  background-color: #FAFAFA;
-  width: 360px;
-  height: 100%;
-  position: fixed;
-}
-.sideContent1{
-  grid-column: 2 / span 4;
-  grid-row: 2 / span 3;
-  background-color: aliceblue;
-}
-.sideContent2{
-  grid-column: 3 / span 2;
-  grid-row: 7 / span 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #50535E;
-  background-color: #EDEAE3;
-  background-image: url('/diagonal-lines.svg'); 
-  background-repeat: repeat;
-}
-.sideContent3{
-  grid-column: 3 / span 2;
-  grid-row: 8 / span 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #50535E;
-  background-color: #EDEAE3;
-  background-image: url('/diagonal-lines.svg'); 
-  background-repeat: repeat;
-}
-.sideContent4{
-  grid-column: 3 / span 2;
-  grid-row: 9 / span 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #50535E;
-  background-color: #EDEAE3;
-  background-image: url('/diagonal-lines.svg'); 
-  background-repeat: repeat;
-}*/
 .hero{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -203,120 +111,59 @@ export default {
   grid-row: 3 / span 2;
   text-align: center;
   font-size: 18px;
-  color:  #50535E;
+  color:  #333333;
 }
 .bold{
   font-size: 45px;
   font-weight: 700;
-  font-family: candal;
+  font-family: Montserrat;
 }
-.articleText2{
-  grid-column: 4 / span 5;
-  grid-row: 7 / span 2;
-  font-size: 35px;
-  font-family: candal;
+.article-img{
+  grid-column: 8 / span 5;
+  grid-row: 7 / span 7;
+  font-family: Montserrat;
   font-weight: 700;
-  color: #50535E;
+  color: #333333;
+  background-color: #BD9E94;
 }
-.cards{
-  grid-column: 7 / span 8;
-  grid-row: 9 / span 10;
-  border: 15px solid #4A5271;
-  background-color: #50535E;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(12, 1fr);
-  grid-gap: 4px;
+.article-text{
+  grid-column: 4 / span 4;
+  grid-row: 7 / span 7;
+  display: flex;
+  padding-top: 40px;
+  justify-content: center;
+  /*font-family: Montserrat;*/
+  font-size: 15px;
+  position: relative;
+  /*border: 1px solid black;*/
 }
-.cardsPic1{
-  grid-column: 1 / span 4;
-  grid-row: 1 / span 6;
-  background-color: #F1948F;
+#line{
+  width: 20%;
+  height: 2px;
+  background-color: #333333;
+  position: absolute;
+  margin-top: 60px;
+  margin-right: 50%;
 }
-.cardsPic2{
-  grid-column: 5 / span 4;
-  grid-row: 1 / span 6;
-  background-color: #50535E;
+.article-paragraph{
+  position: absolute;
+  margin-top: 100px;
+  padding: 0 70px;
+  font-size: 20px
 }
-.cardsPic3{
-  grid-column: 9 / span 4;
-  grid-row: 1 / span 6;
-  background-color: antiquewhite; 
+.article-img2{
+  grid-column: 8 / span 5;
+  grid-row: 15 / span 7;
+  background-color: #BD9E94;
 }
-.cardsPic4{
-  grid-column: 1 / span 4;
-  grid-row: 7 / span 6;
-  background-color: beige;
-}
-.cardsPic5{
-  grid-column: 5 / span 4;
-  grid-row: 7 / span 6;
-  background-color: #888760;
-}
-.cardsPic6{
-  grid-column: 9 / span 4;
-  grid-row: 7 / span 6;
-  background-color: #8CACA1;
-}
-.articleText3{
-  grid-column: 7 / span 6;
-  grid-row: 22 / span 2;
-  font-family: candal;
-  font-weight: 700;
-  font-size: 35px;
-  text-align: right;
-  color: #50535E;
-}
-.card2{
-  grid-column: 4 / span 6;
-  grid-row: 24 / span 8;
-  border: 15px solid #4A5271;
-  background-color: #50535E;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(12, 1fr);
-  grid-gap: 4px;
-  overflow: hidden;
-}
-.card2Pic1{
-  grid-column: 1 / span 4;
-  grid-row: 1 / span 12;
-  background-color: #91949D;
-}
-.card2Pic2{
-  grid-column: 5 / span 4;
-  grid-row: 1 / span 12;
-  background-color: #CCCBA3;
-}
-.card2Pic3{
-  grid-column: 9 / span 4;
-  grid-row: 1 / span 12;
-  background-color: #8CACA1;
-}
-.summery{
-  grid-column: 4 / span 9;
-  grid-row: 35 / span 10;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(12, 1fr);
-  background-color: #39465B;
-}
-.summeryText{
-  grid-column: 1 / span 9;
-  grid-row: 1 / span 2;
-  font-family: candal;
-  font-weight: 700;
-  font-size: 35px;
-  color: #EDEAE3;
-}
-.summeryImage{
-  grid-column: 2 / span 12;
-  grid-row: 3 / span 7; 
-  margin-top: -15px;
-}
-.image{
-  max-height: 100%;
-  max-width: 100%;
+.article-text2{
+  grid-column: 4 / span 4;
+  grid-row: 15 / span 7;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  font-size: 14px;
+  position: relative;
 }
 /*----------FOOTER----------*/
 .footer{

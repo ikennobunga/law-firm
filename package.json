@@ -14,6 +14,7 @@
     "gsap": "^1.20.4",
     "npm": "^5.8.0",
     "nuxt": "^1.0.0",
+    "rellax": "^1.6.2",
     "vuetify": "^1.0.0"
   },
   "devDependencies": {

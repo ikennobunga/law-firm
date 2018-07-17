@@ -13,7 +13,7 @@
               </div>
             </v-card-title>
             <v-card-actions>
-              <v-btn flat color="orange" class="mt-1">Explore</v-btn>
+              <v-btn flat large color="orange" class="mt-1">Explore</v-btn>
             </v-card-actions>
           </v-card>
           </v-flex>

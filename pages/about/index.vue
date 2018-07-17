@@ -67,12 +67,21 @@
         <h1>our values</h1>
       </div>
       <div class="ourvalue-card1 elevation-8">
+        <h1>leagal practise</h1>
+        <br>
+        <p class="ourValueText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit placeat consequatur nam ut facilis rem natus, at reiciendis odio esse consectetur numquam officia cumque cupiditate dolore, exercitationem facere, sapiente atque!</p> 
       </div>
       <div class="ourvalue-background1"></div>
       <div class="ourvalue-card2">
+        <h1>client focused</h1>
+        <br>
+        <p class="ourValueText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus minus quaerat nam recusandae reprehenderit laudantium exercitationem dicta, expedita veritatis maxime nisi incidunt perferendis velit esse. Cupiditate, vel aut. Vel, mollitia?</p>
       </div>
       <div class="ourvalue-background2"></div>
       <div class="ourvalue-card3">
+        <h1>highest level</h1>
+        <br>
+        <p class="ourValueText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto repellendus delectus eius. Et vel reiciendis accusamus quasi iure qui repellat itaque. Minima illo quo ab quod similique tenetur dolorem rem?</p>
       </div>
       <div class="ourvalue-background3"></div>
       <!--achievements-->
@@ -196,6 +205,13 @@
         <div class="education-text">
           <p>pro bono for legal education</p>
         </div>
+        <!--rely-on-us-->
+        <div class="relyOnUs">
+          <div class="a-partnerText"><h1>A partner</h1></div>
+          <div class="u-canText"><h1>U can</h1></div>
+          <div class="rely-onText"><h1>Rely on</h1></div>
+        </div>
+       
     </div>
   </v-app>
 </template>
@@ -226,7 +242,8 @@ export default {
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 1fr);
   background-color: #FFFFFF;
-  color: #50535E;
+  font-family: Montserrat;
+  color: #333333;
   width: 100%;
   height: 840px;
   margin-left: 360px;
@@ -245,7 +262,6 @@ export default {
 .hero-test1{
   grid-column: 7 / 10;
   grid-row: 2 / 4;
-  font-family: montserrat;
   font-size: 45px;
   font-weight: bold;
   letter-spacing: 4px;
@@ -312,6 +328,7 @@ export default {
   grid-row: 2 / 8;
   padding-top: 5px;
   padding-left: 10px;
+  border: 8px solid #333333;
   color:#333333;
   background-color: #F5F7F8;
 }
@@ -324,6 +341,7 @@ export default {
   grid-row: 16 / 22;
   padding-top: 5px;
   padding-right: 10px;
+  border: 8px solid #333333;
   text-align: right;
   color: #333333;
   background-color: #F5F7F8;
@@ -351,50 +369,76 @@ export default {
 .ourvalue-card1{
   grid-column: 3 / 7;
   grid-row: 49 / 63;
+  color: #333333;
+  text-align: center;
+  padding-top: 50px;
   margin-left: 50px;
   margin-bottom: 43px;
   z-index: 999;
-  background-color: rgba(255, 255, 255, 0.966);
-  border: 30px solid #919294;
+  background-color: rgba(255, 255, 255);
+  border: 30px solid#333333;
 }
 .ourvalue-background1{
   grid-column: 3 / 6;
   grid-row: 49 / 63;
   margin-top: 44px;
-  background-image: url('/matic-kozinc-92770-unsplash.jpg');
+  background-image: url('/sebastian-pichler-25154-unsplash.jpg');
+  background-color: #AC8F39;
+  background-blend-mode: multiply;
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgba(3, 3, 3, 0.021);
 }
 .ourvalue-card2{
   grid-column: 3 / 7;
   grid-row: 66 / 80;
+  color: #333333;
+  text-align: center;
+  padding-top: 50px;
   margin-left: 50px;
   margin-bottom: 43px;
   z-index: 999;
-  border: 30px solid #919294;
-  background-color: rgba(255, 255, 255, 0.966); 
+  border: 30px solid #333333;
+  background-color: rgba(255, 255, 255); 
 }
 .ourvalue-background2{
   grid-column: 3 / 6;
   grid-row: 66 / 80;
   margin-top: 44px;
-  background-color: rgba(112, 128, 144, 0.055);
+  background-image: url('/tim-gouw-79563.jpg');
+  background-size: 450px 575px, cover;
+  background-color: #AC8F39;
+  background-blend-mode: multiply;
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
 }
 .ourvalue-card3{
   grid-column: 3 / 7;
   grid-row: 83 / 97;
+  color: #333333;
+  padding-top: 50px;
+  text-align: center;
   z-index: 999;
   margin-left: 50px;
   margin-bottom: 43px;
-  border: 30px solid #919294;
-  background-color: rgba(255, 255, 255, 0.966);
+  border: 30px solid #333333;
+  background-color: rgb(255, 255, 255);
 }
 .ourvalue-background3{
   grid-column: 3 / 6;
   grid-row: 83 / 97;
   margin-top: 44px;
-  background-color: rgba(112, 128, 144, 0.055);
+  background-image: url('/jonathan-francisca-227556-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-color: #AC8F39;
+  background-blend-mode: multiply;
+  background-size: 450px 575px, cover;
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
+}
+.ourValueText{
+  font-size: 20px;
 }
 /*----------achivements----------*/
 .achievenents{
@@ -588,6 +632,42 @@ export default {
   align-items: center;
   justify-content: center;
   font-size: 50px;
+}
+/*----------rely-on-us----------*/
+.relyOnUs{
+  grid-column: 1 / 12;
+  grid-row: 261 / 301;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(40, 1fr);
+  background-color: #000000;
+}
+.a-partnerText{
+  grid-column: 3 / 9;
+  grid-row: 6 / 10;
+  color: #F5F7F8;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-size: 65px;
+}
+.u-canText{
+  grid-column: 3 / 9;
+  grid-row: 18 / 22;
+  color: #F5F7F8;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-size: 65px;
+}
+.rely-onText{
+  grid-column: 3 / 9;
+  grid-row: 31 / 35;
+  color: #F5F7F8;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-size: 65px;
 }
 </style>
 
