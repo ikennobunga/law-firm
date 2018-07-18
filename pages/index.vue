@@ -4,7 +4,7 @@
     <div class="hero">
       <div class="heroPic"><h1>the pic</h1></div>
     </div>
-
+    <!--ARTICLE-->
     <section class="article">
       <h1>WHO WE ARE</h1>
     </section>
