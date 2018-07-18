@@ -34,6 +34,28 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi illo expedita officia cum rem debitis saepe doloremque inventore, amet nemo dignissimos quas facere nostrum facilis aut libero suscipit deleniti necessitatibus?
         </p>
       </div>
+
+      <div class="article-img3">
+        <img src="/coins-1523383_1920.jpg" style="width:100%; height:100%;" alt="">
+      </div>
+      <div class="article-text3">
+        <h1>Financial Monetary Crime</h1>
+        <div id="line"></div>
+        <p class="article-paragraph">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, commodi reprehenderit laborum ipsam dolor in accusamus. Fugiat soluta, excepturi enim a delectus nisi laboriosam pariatur architecto accusamus. Nesciunt, at quos!
+        </p>
+      </div>
+
+      <div class="article-img4">
+        <img src="/pacific-austin-106854.jpg" style="width:100%; height:100%;" alt="">
+      </div>
+      <div class="article-text4">
+        <h1>Mergers  and  Aquisitions</h1>
+        <div id="line"></div>
+        <p class="article-paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quod voluptatem pariatur eaque, dignissimos et accusamus, doloribus in perferendis reiciendis adipisci nisi rem soluta laudantium? Corrupti quasi saepe quam nesciunt?
+        </p>
+      </div>
       
       <div class="footer">
         <h1>the footer</h1>
@@ -159,6 +181,34 @@ export default {
 .article-text2{
   grid-column: 4 / span 4;
   grid-row: 15 / span 7;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  font-size: 14px;
+  position: relative;
+}
+.article-img3{
+  grid-column: 8 / span 5;
+  grid-row: 23 / span 7;
+  background-color: #BD9E94;
+}
+.article-text3{
+  grid-column: 4 / span 4;
+  grid-row: 23 / span 7;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  font-size: 14px;
+  position: relative;
+}
+.article-img4{
+  grid-column: 8 / span 5;
+  grid-row: 31 / span 7;
+  background-color: #BD9E94;
+}
+.article-text4{
+  grid-column: 4 / span 4;
+  grid-row: 31 / span 7;
   display: flex;
   justify-content: center;
   padding-top: 40px;
