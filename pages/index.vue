@@ -14,6 +14,9 @@
     <section class="article3">
       <h1>WHAT OUR CLIENTS SAY</h1>
     </section>
+    <section class="article4">
+      <h1>WHAT TO EXPECT</h1>
+    </section>
     
   </v-app>
 </template>
@@ -69,7 +72,7 @@ export default {
   
 }
 /*----------ARTICLE----------*/
-.article, .article2, .article3{
+.article, .article2, .article3, .article4{
   position: sticky;
   top: 0;
 }
@@ -89,6 +92,11 @@ export default {
 .article3{
   height: 100vh;
   background-color: beige;
+  margin-left: 360px;
+}
+.article4{
+  height: 100vh;
+  background-color: cadetblue;
   margin-left: 360px;
 }
 </style>
