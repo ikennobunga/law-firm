@@ -6,7 +6,16 @@
     </div>
     <!--ARTICLE-->
     <section class="article">
-      <h1>WHO WE ARE</h1>
+      <div class="article-content">
+        <h1>WHO WE ARE</h1>
+      </div>
+      <div class="article-text">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae laborum minima ratione expedita quos nemo dignissimos, eligendi dolor quidem sed deleniti ea nobis dolores qui incidunt! Quia recusandae voluptas incidunt.
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime nisi, mollitia eaque quod necessitatibus optio eveniet aut, esse magni voluptas maiores veritatis alias odit voluptates consectetur deleniti? Dolore, quasi rerum?
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis minus necessitatibus veritatis sequi quam delectus optio non inventore blanditiis officiis, voluptatem, aliquam et unde rerum ratione atque? Beatae, ex voluptas.
+        </p>
+      </div>
     </section>
     <section class="article2">
       <h1>WHAT WE DO</h1>
@@ -78,11 +87,30 @@ export default {
 }
 .article{
   display: grid;
-  grid-template-columns: repeat();
-  grid-template-rows: repeat();
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat( 12, 1fr);
   height: 100vh;
   margin-left: 360px;
-  background-color: grey;
+  background-color: #FFFFFF;
+}
+.article-content{
+  grid-column: 2 / span 4;
+  grid-row: 2 / span 1;
+  /*border: 1px solid black;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px; 
+  font-family: montserrat;
+}
+.article-text{
+  grid-column: 1 / span 12;
+  grid-row: 3 / span 9;
+  /*border: 1px solid black;*/
+  font-family: montserrat;
+  font-weight: 100; 
+  font-size: 35px;
+  line-height: 50px;
 }
 .article2{
   height: 100vh;
