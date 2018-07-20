@@ -101,6 +101,7 @@ export default {
   justify-content: center;
   align-items: center;
   font-size: 20px; 
+  font-weight: 100px;
   font-family: montserrat;
 }
 .article-text{
