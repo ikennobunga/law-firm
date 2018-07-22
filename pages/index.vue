@@ -47,12 +47,34 @@
       </div>
       <div class="article-3-img"></div>
     </section>
+
     <section class="article4">
       <div class="article-content-heading-4">
-        <h1>WHAT TO EXPECT</h1>
+        <h1>Financial Crime</h1>
+        <div class="line"></div>
       </div>
+      <div class="article-content-4">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam porro a aliquam cupiditate enim saepe natus in repellendus illum magni quasi veritatis dolorum obcaecati, esse sit, velit placeat optio repellat.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium suscipit at, odit magni adipisci vel numquam. Molestias praesentium velit nulla! Voluptatum, dicta tenetur ut illo in commodi aperiam? Repudiandae, perferendis.
+        </p>
+      </div>
+      <div class="article-4-img"></div>
     </section>
-    
+
+    <section class="article5">
+      <div class="article-content-heading-5">
+        <h1>Mergers & Aquisitions</h1>
+        <div class="line"></div>
+      </div>
+      <div class="article-content-5">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam quisquam tempore itaque numquam aliquam dolores ex, architecto repudiandae quod quos aliquid, in reprehenderit quia minus dolor dolorem nemo illo temporibus!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor laudantium debitis, recusandae doloremque ipsa, repellendus animi aperiam eveniet, reprehenderit unde harum! Neque ipsam modi eius commodi, quo earum aut blanditiis?
+        </p>
+      </div>
+      <div class="article-5-img"></div>
+    </section>
   </v-app>
 </template>
 
@@ -215,6 +237,26 @@ export default {
   background-size: cover;
   background-position: center;
 }
-
 /*----------ARTICLE4----------*/
+.article-4-img{
+  grid-column: 1 / span 12;
+  grid-row: 6 / span 6;
+  background-image: url('/coins-1523383_1920.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center; 
+}
+/*----------ARTICLE5----------*/
+.article-5-img{
+  grid-column: 1 / span 12;
+  grid-row: 6 / span 6;
+  background-image: url('/pacific-austin-106854.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
 </style>
