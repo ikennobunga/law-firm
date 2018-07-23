@@ -88,6 +88,58 @@
       </div>
       <div class="article-6-img"></div>
     </section>
+
+    <section class="article7">
+      <div class="article-content-heading-7">
+        <h1>Legislative Drafting</h1>
+      </div>
+      <div class="article-content-7">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus esse at perferendis perspiciatis repudiandae eius provident, repellendus, culpa quos quaerat nesciunt. Architecto, molestias voluptatum tempore dolor itaque ut. Atque, quam?
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe esse cum aspernatur facere cumque modi ab quos, odit, recusandae voluptatum eligendi fuga rem ut veniam assumenda dicta, dolore cupiditate. Ut?
+        </p>
+      </div>
+      <div class="article-7-img"></div>
+    </section>
+
+    <section class="article8">
+      <div class="article-content-heading-8">
+        <h1>Government Resolution</h1>
+      </div>
+      <div class="article-content-8">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus esse at perferendis perspiciatis repudiandae eius provident, repellendus, culpa quos quaerat nesciunt. Architecto, molestias voluptatum tempore dolor itaque ut. Atque, quam?
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe esse cum aspernatur facere cumque modi ab quos, odit, recusandae voluptatum eligendi fuga rem ut veniam assumenda dicta, dolore cupiditate. Ut?
+        </p>
+      </div>
+      <div class="article-8-img"></div>
+    </section>
+
+    <section class="article9">
+      <div class="article-content-heading-9">
+        <h1>Legal Services</h1>
+      </div>
+      <div class="article-content-9">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus esse at perferendis perspiciatis repudiandae eius provident, repellendus, culpa quos quaerat nesciunt. Architecto, molestias voluptatum tempore dolor itaque ut. Atque, quam?
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe esse cum aspernatur facere cumque modi ab quos, odit, recusandae voluptatum eligendi fuga rem ut veniam assumenda dicta, dolore cupiditate. Ut?
+        </p>
+      </div>
+      <div class="article-9-img"></div>
+    </section>
+
+    <section class="article10">
+      <div class="article-content-heading-10">
+        <h1>SME'S Packages</h1>
+      </div>
+      <div class="article-content-10">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus esse at perferendis perspiciatis repudiandae eius provident, repellendus, culpa quos quaerat nesciunt. Architecto, molestias voluptatum tempore dolor itaque ut. Atque, quam?
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe esse cum aspernatur facere cumque modi ab quos, odit, recusandae voluptatum eligendi fuga rem ut veniam assumenda dicta, dolore cupiditate. Ut?
+        </p>
+      </div>
+      <div class="article-10-img"></div>
+    </section>
   </v-app>
 </template>
 
@@ -320,7 +372,7 @@ export default {
 .article-7-img{
   grid-column: 1 / span 12;
   grid-row: 6 / span 6;
-  background-image: url('');
+  background-image: url('/mikael-kristenson-242070-unsplash.jpg');
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
