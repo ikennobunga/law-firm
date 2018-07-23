@@ -75,6 +75,19 @@
       </div>
       <div class="article-5-img"></div>
     </section>
+
+    <section class="article6">
+      <div class="article-content-heading-6">
+        <h1>Litigation & Dispiute Resolution</h1>
+      </div>
+      <div class="article-content-6">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quibusdam officiis sint quidem rem ab nobis, voluptates ullam rerum ex modi laborum voluptate aliquid incidunt eum eius, nostrum, impedit voluptatem.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus adipisci modi, soluta possimus error amet fugiat expedita maiores unde velit, ipsam esse illo nulla dicta consectetur necessitatibus rerum animi! Tempora.
+        </p>
+      </div>
+      <div class="article-6-img"></div>
+    </section>
   </v-app>
 </template>
 
@@ -127,11 +140,28 @@ export default {
   width: 100%;
   height: 100%; 
 }
-.article, .article2, .article3, .article4, .article5{
+.article, 
+.article2, 
+.article3, 
+.article4, 
+.article5,
+.article6,
+.article7,
+.article8,
+.article9,
+.article10{
   position: sticky;
   top: 0;
 }
-.article2, .article3, .article4, .article5{
+.article2, 
+.article3, 
+.article4, 
+.article5,
+.article6,
+.article7,
+.article8,
+.article9,
+.article10{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat( 12, 1fr);
@@ -139,7 +169,15 @@ export default {
   background-color: #FFFFFF;
   margin-left: 360px;
 }
-.article-content-heading-2, .article-content-heading-3, .article-content-heading-4, .article-content-heading-5{
+.article-content-heading-2, 
+.article-content-heading-3, 
+.article-content-heading-4, 
+.article-content-heading-5,
+.article-content-heading-6,
+.article-content-heading-7,
+.article-content-heading-8,
+.article-content-heading-9,
+.article-content-heading-10{
   grid-column: 1 / span 5;
   grid-row: 1 / span 2;
   /*border: 1px solid black;*/
@@ -152,7 +190,15 @@ export default {
   position: relative;
   padding-left: 10px;
 }
-.article-content-2, .article-content-3, .article-content-4, .article-content-5 {
+.article-content-2, 
+.article-content-3, 
+.article-content-4, 
+.article-content-5,
+.article-content-6,
+.article-content-7,
+.article-content-8,
+.article-content-9,
+.article-content-10{
   grid-column: 6 / span 6;
   grid-row: 2 / span 4;
   /*border: 1px solid black;*/
@@ -253,6 +299,61 @@ export default {
   grid-column: 1 / span 12;
   grid-row: 6 / span 6;
   background-image: url('/pacific-austin-106854.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: bottom;
+}
+/*----------ARTICLE6----------*/
+.article-6-img{
+  grid-column: 1 / span 12;
+  grid-row: 6 / span 6;
+  background-image: url('/agreement-2679506_1920.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+/*----------ARTICLE7----------*/
+.article-7-img{
+  grid-column: 1 / span 12;
+  grid-row: 6 / span 6;
+  background-image: url('');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+/*----------ARTICLE8----------*/
+.article-8-img{
+  grid-column: 1 / span 12;
+  grid-row: 6 / span 6;
+  background-image: url('');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+/*----------ARTICLE9----------*/
+.article-9-img{
+  grid-column: 1 / span 12;
+  grid-row: 6 / span 6;
+  background-image: url('');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+/*----------ARTICLE10----------*/
+.article-9-img{
+  grid-column: 1 / span 12;
+  grid-row: 6 / span 6;
+  background-image: url('');
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
