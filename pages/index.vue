@@ -383,7 +383,7 @@ export default {
 .article-8-img{
   grid-column: 1 / span 12;
   grid-row: 6 / span 6;
-  background-image: url('');
+  background-image: url('/rux-centea-607551-unsplash.jpg');
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
@@ -394,7 +394,7 @@ export default {
 .article-9-img{
   grid-column: 1 / span 12;
   grid-row: 6 / span 6;
-  background-image: url('');
+  background-image: url('/tim-gouw-79563.jpg');
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
