@@ -140,6 +140,24 @@
       </div>
       <div class="article-10-img"></div>
     </section>
+
+    <section class="article11">
+      <div class="article-content-heading-11">
+        <h1>WHAT TO EXPECT</h1>
+      </div>
+      <div class="commercial-awearness">
+        
+      </div>
+      <div class="communication">
+        
+      </div>
+      <div class="duedeligence">
+        
+      </div>
+      <div class="time-managment">
+        
+      </div>
+    </section>
   </v-app>
 </template>
 
@@ -201,7 +219,8 @@ export default {
 .article7,
 .article8,
 .article9,
-.article10{
+.article10,
+.article11{
   position: sticky;
   top: 0;
 }
@@ -213,7 +232,8 @@ export default {
 .article7,
 .article8,
 .article9,
-.article10{
+.article10,
+.article11{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat( 12, 1fr);
@@ -229,7 +249,8 @@ export default {
 .article-content-heading-7,
 .article-content-heading-8,
 .article-content-heading-9,
-.article-content-heading-10{
+.article-content-heading-10,
+.article-content-heading-11{
   grid-column: 1 / span 5;
   grid-row: 1 / span 2;
   /*border: 1px solid black;*/
@@ -402,14 +423,35 @@ export default {
   background-position: center;
 }
 /*----------ARTICLE10----------*/
-.article-9-img{
+.article-10-img{
   grid-column: 1 / span 12;
   grid-row: 6 / span 6;
-  background-image: url('');
+  background-image: url('/andrew-spencer-332965-unsplash.jpg');
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
   background-size: cover;
   background-position: center;
+}
+/*----------ARTICLE11----------*/
+.commercial-awearness{
+  grid-column: 2 / span 10;
+  grid-row: 4 / span 2;
+  border: 1px solid black;
+}
+.communication{
+  grid-column: 3 / span 10;
+  grid-row: 6 / span 2;
+  border: 1px solid black;
+}
+.duedeligence{
+  grid-column: 2 / span 10;
+  grid-row: 8 / span 2;
+  border: 1px solid black;
+}
+.time-managment{
+  grid-column: 3 / span 10;
+  grid-row: 10 / span 2;
+  border: 1px solid black;
 }
 </style>
