@@ -20,7 +20,7 @@
       </div>
     </section>
 
-    <section class="article2">
+    <section class="article2 elevation-5">
       <div class="article-content-heading-2">
         <h1>Corporate & Commercial</h1>
         <div class="line"></div>
@@ -34,7 +34,7 @@
       <div class="article-2-img"></div>
     </section>
 
-    <section class="article3">
+    <section class="article3 elevation-5">
       <div class="article-content-heading-3">
         <h1>Regulatory & Complience</h1>
         <div class="line"></div>
@@ -48,7 +48,7 @@
       <div class="article-3-img"></div>
     </section>
 
-    <section class="article4">
+    <section class="article4 elevation-5">
       <div class="article-content-heading-4">
         <h1>Financial Crime</h1>
         <div class="line"></div>
@@ -62,7 +62,7 @@
       <div class="article-4-img"></div>
     </section>
 
-    <section class="article5">
+    <section class="article5 elevation-5">
       <div class="article-content-heading-5">
         <h1>Mergers & Aquisitions</h1>
         <div class="line"></div>
@@ -76,7 +76,7 @@
       <div class="article-5-img"></div>
     </section>
 
-    <section class="article6">
+    <section class="article6 elevation-5">
       <div class="article-content-heading-6">
         <h1>Litigation & Dispiute Resolution</h1>
       </div>
@@ -89,7 +89,7 @@
       <div class="article-6-img"></div>
     </section>
 
-    <section class="article7">
+    <section class="article7 elevation-5">
       <div class="article-content-heading-7">
         <h1>Legislative Drafting</h1>
       </div>
@@ -102,7 +102,7 @@
       <div class="article-7-img"></div>
     </section>
 
-    <section class="article8">
+    <section class="article8 elevation-5">
       <div class="article-content-heading-8">
         <h1>Government Resolution</h1>
       </div>
@@ -115,7 +115,7 @@
       <div class="article-8-img"></div>
     </section>
 
-    <section class="article9">
+    <section class="article9 elevation-5">
       <div class="article-content-heading-9">
         <h1>Legal Services</h1>
       </div>
@@ -128,7 +128,7 @@
       <div class="article-9-img"></div>
     </section>
 
-    <section class="article10">
+    <section class="article10 elevation-5">
       <div class="article-content-heading-10">
         <h1>SME'S Packages</h1>
       </div>
@@ -141,21 +141,33 @@
       <div class="article-10-img"></div>
     </section>
 
-    <section class="article11">
+    <section class="article11 elevation-5">
       <div class="article-content-heading-11">
         <h1>WHAT TO EXPECT</h1>
       </div>
       <div class="commercial-awearness">
-        
+        <h1>Commercial Awearness</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem culpa quod sint et, natus ab asperiores mollitia recusandae eaque neque obcaecati animi commodi, molestiae sapiente veniam iure minima earum cumque.
+        </p>
       </div>
       <div class="communication">
-        
+        <h1>Communication</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia tempore sunt voluptas, maiores quo eaque quibusdam dolorem! Officiis, obcaecati minus. Cupiditate exercitationem magnam quidem! Unde expedita provident sed aperiam repellendus!Deleniti, eum aperiam molestiae perspiciat.
+        </p>
       </div>
       <div class="duedeligence">
-        
+        <h1>Duedeligence</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis incidunt eveniet sequi saepe magni earum omnis laboriosam ipsum minima rem beatae mollitia repudiandae dicta culpa, quis perferendis hic? Magni, aspernatur?Totam deleniti nam voluptate, molestiae rem vel dolorum aliquam q.
+        </p>
       </div>
       <div class="time-managment">
-        
+        <h1>Time Managment</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum at, dolores aliquid atque, magnam ex quo exercitationem autem et, totam minima? Provident officia voluptates praesentium rerum inventore, est quisquam! Facere.Error, labore, voluptatum, rerum quam perspiciatis impedit eius Rem.
+        </p>
       </div>
     </section>
   </v-app>
@@ -308,7 +320,6 @@ export default {
   grid-template-rows: repeat( 12, 1fr);
   height: 100vh;
   margin-left: 360px;
-  background-color: #FFFFFF;
 }
 .article-content-heading{
   grid-column: 1 / span 12;
@@ -331,7 +342,6 @@ export default {
   font-weight: 700; 
   font-size: 35px;
   line-height: 50px;
-  background-color: rgba(204, 204, 204, 0.116);
 }
 /*----------ARTICLE2----------*/
 .article-2-img{
@@ -436,22 +446,34 @@ export default {
 /*----------ARTICLE11----------*/
 .commercial-awearness{
   grid-column: 2 / span 10;
-  grid-row: 4 / span 2;
-  border: 1px solid black;
+  grid-row: 3 / span 2;
+  /*border: 1px solid black;*/
+  font-family: montserrat;
+  font-size: 16px; 
+  font-weight: 400;
 }
 .communication{
-  grid-column: 3 / span 10;
-  grid-row: 6 / span 2;
-  border: 1px solid black;
+  grid-column: 2 / span 10;
+  grid-row: 5 / span 2;
+  /*border: 1px solid black;*/
+  font-family: montserrat; 
+  font-size: 16px; 
+  font-weight: 400; 
 }
 .duedeligence{
   grid-column: 2 / span 10;
-  grid-row: 8 / span 2;
-  border: 1px solid black;
+  grid-row: 7 / span 2;
+  /*border: 1px solid black;*/
+  font-family: montserrat; 
+  font-size: 16px;
+  font-weight: 400;  
 }
 .time-managment{
-  grid-column: 3 / span 10;
-  grid-row: 10 / span 2;
-  border: 1px solid black;
+  grid-column: 2 / span 10;
+  grid-row: 9 / span 2;
+  /*border: 1px solid black;*/
+  font-family: montserrat;
+  font-size: 16px; 
+  font-weight: 400; 
 }
 </style>
