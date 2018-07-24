@@ -21,7 +21,7 @@
 <style scoped>
 a{
   text-decoration: none;
-  color: #333333;
+  color: #212D3B;
   font-size: 30px;
 }
 .sidebar{
@@ -31,7 +31,7 @@ a{
   grid-template-rows: repeat(12, 1fr);
   grid-row-gap: 10px;
   background-color: #FAFAFA;
-  font-family: Montserrat;
+  font-family: 'montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   width: 360px;
   height: 100%;
   position: fixed;
@@ -64,7 +64,7 @@ a{
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #50535E;
+  color: #212D3B;
   /*background-image: url('/diagonal-lines.svg');
   background-repeat: repeat;*/
 }
@@ -79,7 +79,7 @@ a{
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #50535E;
+  color: #212D3B;
   /*background-image: url('/diagonal-lines.svg');*/ 
   background-repeat: repeat;
 }
@@ -89,7 +89,7 @@ a{
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #50535E;
+  color: #212D3B;
   /*background-image: url('/diagonal-lines.svg');*/ 
   background-repeat: repeat;
 }
@@ -99,8 +99,8 @@ a{
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #50535E;
+  color: #212D3B;
   /*background-image: url('/diagonal-lines.svg'); */
-  background-repeat: repeat;
+  /*background-repeat: repeat;*/
 }
 </style>

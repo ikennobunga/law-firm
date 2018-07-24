@@ -15,7 +15,7 @@
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae laborum minima ratione expedita quos nemo dignissimos, eligendi dolor quidem sed deleniti ea nobis dolores qui incidunt! Quia recusandae voluptas incidunt.
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime nisi, mollitia eaque quod necessitatibus optio eveniet aut, esse magni voluptas maiores veritatis alias odit voluptates consectetur deleniti? Dolore, quasi rerum?
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis minus necessitatibus veritatis sequi quam delectus optio non inventore blanditiis officiis, voluptatem, aliquam et unde rerum ratione atque? Beatae, ex voluptas.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis minus necessitatibus veritatis sequi quam delectus optio non inventore blanditiis officiis, voluptatem,.
         </p>
       </div>
     </section>
@@ -208,7 +208,6 @@ export default {
 
 <style scoped>
 .hero{
-  background-color: #FFFFFF;
   width: 100%;
   height: 100vh;
   position: relative;
@@ -271,7 +270,7 @@ export default {
   align-items: center;
   font-size: 18px; 
   font-weight: 100px;
-  font-family: montserrat;
+  font-family: 'montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   position: relative;
   padding-left: 10px;
 }
@@ -287,9 +286,9 @@ export default {
   grid-column: 6 / span 6;
   grid-row: 2 / span 4;
   /*border: 1px solid black;*/
-  font-family: montserrat;
+  font-family: 'montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 18px;
-  font-weight: 100px;
+  font-weight: 500;
 }
 .line{
   height: 2px;
@@ -330,18 +329,20 @@ export default {
   align-items: center;
   font-size: 16px; 
   font-weight: 100px;
-  font-family: montserrat;
+  font-family: 'montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   position: relative;
   padding-left: 40px;
+  color: #212D3B;
 }
 .article-text{
   grid-column: 1 / span 12;
   grid-row: 3 / span 9;
   /*border: 1px solid black;*/
-  font-family: montserrat;
-  font-weight: 700; 
+  font-family:'rock salt','montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 500; 
   font-size: 35px;
-  line-height: 50px;
+  line-height: 45px;
+  color: #212D3B;
 }
 /*----------ARTICLE2----------*/
 .article-2-img{
@@ -448,7 +449,7 @@ export default {
   grid-column: 2 / span 10;
   grid-row: 3 / span 2;
   /*border: 1px solid black;*/
-  font-family: montserrat;
+  font-family: 'montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 16px; 
   font-weight: 400;
 }
@@ -456,7 +457,7 @@ export default {
   grid-column: 2 / span 10;
   grid-row: 5 / span 2;
   /*border: 1px solid black;*/
-  font-family: montserrat; 
+  font-family: 'montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
   font-size: 16px; 
   font-weight: 400; 
 }
@@ -464,7 +465,7 @@ export default {
   grid-column: 2 / span 10;
   grid-row: 7 / span 2;
   /*border: 1px solid black;*/
-  font-family: montserrat; 
+  font-family: 'montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
   font-size: 16px;
   font-weight: 400;  
 }
@@ -472,7 +473,7 @@ export default {
   grid-column: 2 / span 10;
   grid-row: 9 / span 2;
   /*border: 1px solid black;*/
-  font-family: montserrat;
+  font-family: 'montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 16px; 
   font-weight: 400; 
 }
