@@ -170,6 +170,17 @@
         </p>
       </div>
     </section>
+
+    <section class="article12 elevation-5">
+      <div class="article-content-heading-12">
+        <h1>WHAT CLIENT'S SAY</h1>
+      </div>
+      <div class="article-content-12">
+        <div class="comments">
+          <h1>slider</h1>
+        </div>
+      </div>
+    </section>
   </v-app>
 </template>
 
@@ -231,7 +242,8 @@ export default {
 .article8,
 .article9,
 .article10,
-.article11{
+.article11,
+.article12{
   position: sticky;
   top: 0;
 }
@@ -244,7 +256,8 @@ export default {
 .article8,
 .article9,
 .article10,
-.article11{
+.article11,
+.article12{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat( 12, 1fr);
@@ -261,7 +274,8 @@ export default {
 .article-content-heading-8,
 .article-content-heading-9,
 .article-content-heading-10,
-.article-content-heading-11{
+.article-content-heading-11,
+.article-content-heading-12{
   grid-column: 1 / span 5;
   grid-row: 1 / span 2;
   /*border: 1px solid black;*/
@@ -476,5 +490,19 @@ export default {
   font-family: 'montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 16px; 
   font-weight: 400; 
+}
+/*----------ARTICLE12----------*/
+.article-content-12{
+  grid-column: 1 / span 12;
+  grid-row: 3 / span 11;
+  display: grid;
+  background-color: #C5372F;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+}
+.comments{
+  grid-column: 3 / span 10;
+  grid-row: 3 / span 10;
+  background-color: #FFFFFF;
 }
 </style>
