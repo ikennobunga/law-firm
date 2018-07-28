@@ -175,18 +175,14 @@
       <div class="article-content-heading-12">
         <h1>WHAT CLIENT'S SAY</h1>
       </div>
-      <div class="article-content-12">
-        <div class="comments">
-          <h1>slider</h1>
-        </div>
-      </div>
+      
     </section>
   </v-app>
 </template>
 
 <script>
-import { TweenMax, Sine } from 'gsap'
-// import { scroll } from '../assets/script/scroll'
+// import { TweenMax, Sine } from 'gsap'
+// import { slaid } from '../assets/script/scroll'
 import Home from '@/components/Home'
 import Card from '@/components/Card'
 import Pic from '@/components/Pic'
@@ -195,24 +191,22 @@ export default {
     Home,
     Card,
     Pic
-    // scroll,
+    // slaid
     // Sine
   },
   data () {
     return {
+      items: [
+        { src: '/benjamin-voros-587386-unsplash.jpg' },
+        { src: '/capturer-le-moment-570295-unsplash.jpg' },
+        { src: '/eric-muhr-636825-unsplash.jpg' },
+        { src: '/ev-295466-unsplash.jpg' },
+        { src: '/static/james-connolly-376517-unsplash.jpg' }
+      ]
     }
   },
   methods: {
-    scroller: function (evt, el) {
-      if (window.scrollY > 50) {
-        TweenMax.to(el, 2, {
-          y: -50,
-          opacity: 1,
-          ease: Sine.easeout
-        })
-      }
-      return window.scrollY > 100
-    }
+
   }
 }
 </script>
@@ -492,17 +486,5 @@ export default {
   font-weight: 400; 
 }
 /*----------ARTICLE12----------*/
-.article-content-12{
-  grid-column: 1 / span 12;
-  grid-row: 3 / span 11;
-  display: grid;
-  background-color: #C5372F;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(12, 1fr);
-}
-.comments{
-  grid-column: 3 / span 10;
-  grid-row: 3 / span 10;
-  background-color: #FFFFFF;
-}
+
 </style>
