@@ -1,11 +1,12 @@
 <template>
   <v-flex xs12>
     <div class="ourTeam">
-      <img :src="url" alt="">
+      <img class="image"
+       :src="url" alt="">
       <div class="team-content">
         <h3 class="title">{{ title }}</h3>
         <span class="post">{{ post }}</span>
-        <p class="description">{{ description }}</p>
+        <p class="description">"{{ description }}"</p>
       </div>
     </div>
   </v-flex>
@@ -24,7 +25,7 @@
 }
 .ourTeam img{ 
   max-width: 100%;
-  height: 335px;
+  height: 463px;
   position: relative;
   right: 0;
   transition: all 0.4s ease-in-out 0s;
@@ -34,13 +35,17 @@
 }
 .ourTeam .team-content{
   width: 80%;
-  height: 335px;
-  background-color: beige;
-  padding: 20% 30px 0;
+  height: 463px; 
+  background-color: #212D3B;
+  padding: 40% 30px 0;
   position: absolute;
   top: 0;
   right: -80%;
   transition: all 0.4s ease-in-out 0s;
+}
+.description{
+  padding-top: 40px;
+  font-family: 'montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .ourTeam:hover .team-content{
   right: 0;

@@ -173,10 +173,37 @@
 
     <section class="article12 elevation-5">
       <div class="article-content-heading-12">
-        <h1>WHAT CLIENT'S SAY</h1>
+        <h1>WHAT CLIENT'S SAY !</h1>
       </div>
-      
+      <div class="card-container">
+        <div class="card-1">
+          <Pic
+            url="pacific-austin-106854.jpg"
+            title="BROOKLYN inc"
+            post="James Woodwick / Public Relation MD"
+            description="How your team turned the imposible to possible is still the topic in the office"
+            />
+        </div>
+        <div class="card-2">
+          <pic
+            url="benjamin-voros-587386-unsplash.jpg"
+            title="PAPAER AGENCY"
+            post="ChurchHill Grant / Senior Vic President"
+            description="We had lost all hope. Still its hard to believe we made it through. support from ur team was overwhelming"
+            />
+        </div>
+        <div class="card-3">
+          <pic
+            url="capturer-le-moment-570295-unsplash.jpg"
+            title="CROWD INVESTMENTS"
+            post="Camron Dias / Marketing Strategist"
+            description="We are more than glad we accepted ur recommendation. We are in good hands."
+            />
+        </div>
+      </div>
     </section>
+
+    
   </v-app>
 </template>
 
@@ -486,5 +513,31 @@ export default {
   font-weight: 400; 
 }
 /*----------ARTICLE12----------*/
-
+.article12{
+  background-color: black;
+  color: #FFFFFF;
+}
+.card-container{
+  grid-column: 2 / span 10;
+  grid-row: 3 / span 9;
+  border: 1px soli #FFFFFF;
+  padding: 65px 0 15px ;
+  display: flex;
+  justify-content: space-around;
+}
+.card-1{
+  width: 30%;
+  height: 90%;
+  background-color: #B09862;
+}
+.card-2{
+  width: 30%;
+  height: 90%;
+  background-color: #C5372F;
+}
+.card-3{
+  width: 30%;
+  height: 90%;
+  background-color: #3596B5;
+}
 </style>
