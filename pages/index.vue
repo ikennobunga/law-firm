@@ -203,7 +203,29 @@
       </div>
     </section>
 
-    
+    <footer class="footer-container elevation-5">
+      <div class="footerContent">
+        <div class="content1">
+          <h3>ABOUT US</h3>
+          <h3>AWARDS</h3>
+          <h3>CSR</h3>
+          <h3>NEWS</h3>
+          <h3>SECTORS</h3>
+          <h3>SERVICES</h3>
+          <h3>PEOPLE</h3>
+          <h3>CAREERS</h3>
+        </div>
+        <div class="content2">
+          <h3>LATEST NEWS</h3>
+          <h3>UPCPMMING EVENTS</h3>
+          <h3>VIDEOS</h3>
+          <h3>CONTACT</h3>          
+        </div>
+        <div class="content3">
+          
+        </div>
+      </div>
+    </footer>
   </v-app>
 </template>
 
@@ -264,7 +286,8 @@ export default {
 .article9,
 .article10,
 .article11,
-.article12{
+.article12,
+.footer-container{
   position: sticky;
   top: 0;
 }
@@ -539,5 +562,37 @@ export default {
   width: 30%;
   height: 90%;
   background-color: #3596B5;
+}
+/*----------footer----------*/
+.footer-container{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  height: 50vh;
+  background-color: rgba(255, 255, 255, 0.918);
+  margin-left: 360px;
+}
+.footerContent{
+  grid-column: 2 / span 10;
+  grid-row: 3 / span 8;
+  font-family: 'montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  display: flex;
+  justify-content: space-around;
+  /*border: 1px solid black;*/
+}
+.content1{
+  width: 30%;
+  height: 100%;
+  /*border: 1px solid black;*/
+}
+.content2{
+  width: 30%;
+  height: 100%;
+  /*border: 1px solid black;*/
+}
+.content3{
+  width: 30%;
+  height: 100%;
+  /*border: 1px solid black;*/
 }
 </style>
