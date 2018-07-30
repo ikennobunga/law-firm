@@ -222,8 +222,13 @@
           <h3>CONTACT</h3>          
         </div>
         <div class="content3">
-          
+          <h3>FIND US ON</h3>
+          <p><i class="fab fa-facebook-square"></i></p>
+          <p><i class="fab fa-twitter-square"></i></p>
+          <p><i class="fab fa-instagram"></i></p>
+          <p><i class="fab fa-linkedin"></i></p>
         </div>
+        <div class="line-2"></div>
       </div>
     </footer>
   </v-app>
@@ -575,10 +580,14 @@ export default {
 .footerContent{
   grid-column: 2 / span 10;
   grid-row: 3 / span 8;
-  font-family: 'montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  font-family: 'montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  font-size: 0.8rem;
+  line-height: 2rem;
+  color: #212D3B;
+  position: relative;
   display: flex;
   justify-content: space-around;
-  /*border: 1px solid black;*/
+  border: 1px solid black;
 }
 .content1{
   width: 30%;
@@ -594,5 +603,9 @@ export default {
   width: 30%;
   height: 100%;
   /*border: 1px solid black;*/
+}
+.fab{
+  color: #212D3B;
+  font-size: 20px;
 }
 </style>
