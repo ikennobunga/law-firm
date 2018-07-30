@@ -2,7 +2,11 @@
   <v-app>
     
     <div class="hero">
-      <div class="heroPic"></div>
+      <div class="heroPic">
+        <div class="overlay">
+          <h1>WE PLAY BY THE RULES AND WE PLAY IT OUTSTANDINGLY</h1>  
+        </div>
+      </div>
     </div>
     <!--ARTICLE-->
     <section class="article">
@@ -272,6 +276,7 @@ export default {
   position: relative;
   margin-left: 360px;
   margin-top: -16px;
+  overflow: hidden;
 }
 .heroPic{
   background-image: url('/anders-jilden-239-unsplash.jpg');
@@ -279,6 +284,21 @@ export default {
   background-size: contain;
   width: 100%;
   height: 100%; 
+}
+.overlay{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  color: #F3F2F3;
+  background-color: rgba(33, 45, 59, 0.767);
+  transition-duration: 0.6s;
+  position: absolute;
+  left: -100%;
+}
+.heroPic:hover .overlay{
+  left: 0;
 }
 .article, 
 .article2, 
@@ -569,6 +589,13 @@ export default {
   background-color: #3596B5;
 }
 /*----------footer----------*/
+h3{
+  transition-duration: 0.5s; 
+}
+h3:hover{
+  color: #B09862;
+  font-size: 0.9rem;
+}
 .footer-container{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -587,7 +614,7 @@ export default {
   position: relative;
   display: flex;
   justify-content: space-around;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 .content1{
   width: 30%;
@@ -607,5 +634,17 @@ export default {
 .fab{
   color: #212D3B;
   font-size: 20px;
+  transition-duration: 0.5s;
+}
+.fab:hover{
+  color: #B09862;
+  font-size: 15px;
+}
+.line-2{
+  width: 50%;
+  height: 1px;
+  background-color: #212D3B;
+  position: absolute;
+  margin-top: 250px;
 }
 </style>

@@ -23,14 +23,24 @@ a{
   text-decoration: none;
   color: #212D3B;
   font-size: 30px;
+  transition-duration: 0.8s; 
+}
+a:hover{
+  color: #B09862;
+  font-size: 29px;
 }
 .sidebar{
   animation: yourAnimation 1.7s forwards 0s linear;
+  background-image: url('/sebastian-pichler-25154-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(12, 1fr);
   grid-row-gap: 10px;
-  background-color: #FAFAFA;
+  background-color: rgba(250, 250, 250, 0.87);
   font-family: 'montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   width: 360px;
   height: 100%;
