@@ -15,6 +15,13 @@
       <div class="sideContent4">
         <h2 class="bold"><nuxt-link to="/team">team</nuxt-link></h2>
       </div>
+      <div class="footer-content">
+        <h6>TERMS & CONDITIONS</h6>
+        <h6>PRIVACY POLICY</h6>
+        <h6>DISCLAIMER</h6>
+        <h6>FRAUD ALERT</h6>
+        <h6>COPYRIGHT-2018 Alansari & Associates</h6>
+      </div>
     </aside>
 </template>
 
@@ -23,7 +30,7 @@ a{
   text-decoration: none;
   color: #212D3B;
   font-size: 30px;
-  transition-duration: 0.8s; 
+  transition-duration: 0.5s; 
 }
 a:hover{
   color: #B09862;
@@ -112,5 +119,14 @@ a:hover{
   color: #212D3B;
   /*background-image: url('/diagonal-lines.svg'); */
   /*background-repeat: repeat;*/
+}
+.footer-content{
+  grid-column: 2 / span 4;
+  grid-row: 11 / span 2;
+  /*border: 1px solid black;*/
+  text-align: center;
+  color: #212D3B;
+  line-height: 15px;
+  padding-top: 50px;
 }
 </style>

@@ -285,20 +285,42 @@ export default {
   width: 100%;
   height: 100%; 
 }
+.hero .heroPic{
+  animation: kenburns 60s infinite;
+}
+@keyframes kenburns {
+  0%{
+    opacity: 0;
+  }
+  5%{
+    opacity: 1;
+  }
+  95%{
+    transform: scale3d(1.5, 1.5, 1.5) translate3d(-190px, -120px, 0px);
+    animation-timing-function: ease-in;
+    opacity: 1;
+  }
+  100%{
+    transform: scale3d(2, 2, 2);
+    opacity: 0;
+  }
+}
 .overlay{
   width: 100%;
   height: 100%;
   display: flex;
+  justify-content: center;
   align-items: center;
-  padding-left: 10%;
   color: #F3F2F3;
+  font-family: 'montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: rgba(33, 45, 59, 0.767);
-  transition-duration: 0.6s;
+  transition-duration: 3s;
   position: absolute;
   left: -100%;
 }
 .heroPic:hover .overlay{
   left: 0;
+  transition-duration: 0.9s;
 }
 .article, 
 .article2, 
@@ -420,6 +442,7 @@ export default {
 .article-text{
   grid-column: 1 / span 12;
   grid-row: 3 / span 9;
+  padding-left: 8px;
   /*border: 1px solid black;*/
   font-family:'rock salt','montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: 500; 
@@ -436,7 +459,8 @@ export default {
   width: 100%;
   height: 100%;
   /*border: 1px solid black;*/
-  background-size: cover;
+  background-size: 100%;
+  transition-duration: 1s;
   background-position: center;
 }
 /*----------ARTICLE3----------*/
@@ -447,7 +471,8 @@ export default {
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
-  background-size: cover;
+  background-size: 100%;
+  transition-duration: 1s;
   background-position: center;
 }
 /*----------ARTICLE4----------*/
@@ -458,7 +483,8 @@ export default {
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
-  background-size: cover;
+  background-size: 100%;
+  transition-duration: 1s;
   background-position: center; 
 }
 /*----------ARTICLE5----------*/
@@ -469,7 +495,8 @@ export default {
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
-  background-size: cover;
+  background-size: 100%;
+  transition-duration: 1s;
   background-position: bottom;
 }
 /*----------ARTICLE6----------*/
@@ -480,7 +507,8 @@ export default {
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
-  background-size: cover;
+  background-size: 100%;
+  transition-duration: 1s;
   background-position: center;
 }
 /*----------ARTICLE7----------*/
@@ -491,7 +519,8 @@ export default {
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
-  background-size: cover;
+  background-size: 100%;
+  transition-duration: 1s;
   background-position: center;
 }
 /*----------ARTICLE8----------*/
@@ -502,7 +531,8 @@ export default {
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
-  background-size: cover;
+  background-size: 100%;
+  transition-duration: 1s;
   background-position: center;
 }
 /*----------ARTICLE9----------*/
@@ -513,7 +543,8 @@ export default {
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
-  background-size: cover;
+  background-size: 100%;
+  transition-duration: 1s;
   background-position: center;
 }
 /*----------ARTICLE10----------*/
@@ -524,10 +555,43 @@ export default {
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
-  background-size: cover;
+  background-size: 100%;
+  transition-duration: 1s;
   background-position: center;
 }
+/*----------ARTICLE-IMG-HOVER----------*/ 
+.article-2-img:hover{
+  transform: scale(1.1);
+}
+.article-3-img:hover{
+  transform: scale(1.1); 
+}
+.article-4-img:hover{ 
+  transform: scale(1.1);
+}
+.article-5-img:hover{
+  transform: scale(1.1); 
+}
+.article-6-img:hover{
+  transform: scale(1.1); 
+}
+.article-7-img:hover{
+  transform: scale(1.1); 
+}
+.article-8-img:hover{
+  transform: scale(1.1); 
+}
+.article-9-img:hover{
+  transform: scale(1.1); 
+} 
+.article-10-img:hover{
+  transform: scale(1.1);
+}
 /*----------ARTICLE11----------*/
+.article11{
+  color: #FDF3E7;
+  background-color: #C5372F
+}
 .commercial-awearness{
   grid-column: 2 / span 10;
   grid-row: 3 / span 2;
