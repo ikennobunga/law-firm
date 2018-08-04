@@ -15,7 +15,7 @@
     </div>
     <!--founders-->
     <div class="founders">
-    
+      
     </div>
 
   </v-app>
@@ -86,6 +86,14 @@ export default {
   font-family: 'montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 1.4rem;
   color: #212D3B;
+}
+/*----------FOUNDERS----------*/
+.founders{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  width: 100%;
+  height: 100vh;
 }
 </style>
 
