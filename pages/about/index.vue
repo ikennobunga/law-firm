@@ -15,9 +15,32 @@
     </div>
     <!--founders-->
     <div class="founders">
-      
+      <div class="founders-heading">
+        <h1>FOUNDERS</h1>
+      </div>
+      <div class="founder-card-1 elevation-2">
+        <div class="card-1-content">
+          <h2>SHAWN KEMP WHITEKER</h2>
+          <P>MANAGING DIRECTOR</P>
+          <p>shawnkemp@gmail.com</p>
+          <p>+974 444 333 222</p>
+          <p>fb twitter linked-in </p>
+        </div>
+        <div class="card-1-img"></div>
+      </div>
+      <div class="founder-card-2 elevation-2">
+        <div class="card-2-content">
+          <h2>CARL WINSLOW CHESTAR</h2>
+          <P>MANAGING DIRECTOR</P>
+          <p>carlwinslow@gmail.com</p>
+          <p>+974 444 333 222</p>
+          <p>fb twitter linked-in </p>
+        </div>
+        <div class="card-2-img"></div>
+      </div>
     </div>
-
+    <!--founders-->
+    
   </v-app>
 </template>
 
@@ -52,6 +75,7 @@ export default {
 .about-block{
   grid-column: 4 / span 9;
   grid-row: 1 / span 4;
+  font-family: 'montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #FDF3E7;
   font-size: 2rem;
   border: 1px solid black;
@@ -94,6 +118,55 @@ export default {
   grid-template-rows: repeat(12, 1fr);
   width: 100%;
   height: 100vh;
+}
+.founders-heading{
+  grid-column: 5 / span 3;
+  grid-row: 2 / span 1;
+  font-family: 'montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.1rem; 
+  font-weight: 100px;
+  display: flex;
+  align-items: center;
+  /*border: 1px solid black;*/
+}
+.founder-card-1{
+  grid-column: 5 / span 7;
+  grid-row: 3 / span 4;
+  display: flex;
+  padding: 40px 0 0 10px;
+  /*border: 1px solid black;*/
+}
+.card-1-content{
+  width: 80%;
+  height: 100%;
+  font-family: 'montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card-1-img{
+  background-color: aquamarine;
+  background-image: url('/salman-2.jpg');
+  background-size: 100%;
+  background-position: 30% 30%;
+  width: 100%;
+  height: 100%;
+}
+.founder-card-2{
+  grid-column: 5 / span 7;
+  grid-row: 8 / span 4;
+  display: flex;
+  padding: 40px 0 0 10px;
+  /*border: 1px solid black;*/
+}
+.card-2-content{
+  width: 80%;
+  height: 100%;
+  font-family: 'montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card-2-img{
+  background-image: url('/buahmed-min.jpg');
+  background-size: 100%;
+  background-position: 20% 20%;
+  width: 100%;
+  height: 100%;
 }
 </style>
 
