@@ -13,6 +13,7 @@
       </div>
       <div class="hero-img"></div>
     </div>
+
     <!--founders-->
     <div class="founders">
       <div class="founders-heading">
@@ -39,8 +40,33 @@
         <div class="card-2-img"></div>
       </div>
     </div>
-    <!--founders-->
-    
+
+    <!--our-values-->
+    <div class="our-values">
+      <div class="our-value-header">
+        <h1>OUR VALUES</h1>
+      </div>
+      <div class="our-value-content">
+        <div class="leagle-practice">
+          <h2>LEAGAL PRACTICE</h2>
+          <P class="content-para-1">
+            Our practice is underpinned by a deep understanding of local laws and of the sectors in which our clients operate. We provide expert counsel and innovative solutions to complex issues.
+          </P>
+        </div>
+        <div class="client-focus">
+          <h2>CLIENT FOCUS</h2>
+          <P class="content-para-2">
+            We pride ourselves on providing efficient, responsive and courteous service. We add value for our clients by providing training and information to support their business in the region.
+          </P>
+        </div>
+        <div class="higest-levels">
+          <h2>HIGEST LEVELS</h2>
+          <p class="content-para-3">
+            We are proud to offer legal services and expertise with international standards. Our core strength is the diversity and experience of our legal professionals with commitment to the highest standards.
+          </p>
+        </div>
+      </div>
+    </div>
   </v-app>
 </template>
 
@@ -167,6 +193,64 @@ export default {
   background-position: 20% 20%;
   width: 100%;
   height: 100%;
+}
+/*----------FOUNDERS----------*/
+.our-values{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  width: 100%;
+  height: 100vh;
+}
+/*----------OUR VALUES----------*/
+.content-para-1{
+  margin-top: 160px;
+  font-size: 1.3rem;
+  letter-spacing: 0.4rem;
+}
+.content-para-2{
+  margin-top: 100px;
+  font-size: 1.3rem;
+  letter-spacing: 0.4rem;
+}
+.content-para-3{
+  margin-top: 150px;
+  font-size: 1.3rem;
+  letter-spacing: 0.4rem;
+}
+.our-value-header{
+  grid-column: 5 / span 2;
+  grid-row: 1 / span 1;
+  display: flex;
+  align-items: center;
+  /*border: 1px solid black;*/
+}
+.our-value-content{
+  grid-column: 4 / span 9;
+  grid-row: 2 / span 11;
+  color: #FDF3E7;
+  font-family: 'montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  padding: 0 80px 0 80px;
+  background-color: black;
+}
+.leagle-practice{
+  width: 50%;
+  height: 100%;
+  padding: 50px 60px 0 0;
+  border: 0.01rem solid rgba(253, 243, 231, 0.123);
+}
+.client-focus{
+  width: 50%;
+  height: 100%;
+  padding: 50px 60px 0 0;
+  border: 0.01rem solid rgba(253, 243, 231, 0.123);
+}
+.higest-levels{
+  width: 50%;
+  height: 100%;
+  padding: 50px 60px 0 0;
+  border: 0.01rem solid rgba(253, 243, 231, 0.123);
 }
 </style>
 
