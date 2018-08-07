@@ -19,7 +19,7 @@
       <div class="founders-heading">
         <h1>FOUNDERS</h1>
       </div>
-      <div class="founder-card-1 elevation-2">
+      <div class="founder-card-1 elevation-0">
         <div class="card-1-content">
           <h2>SHAWN KEMP WHITEKER</h2>
           <P>MANAGING DIRECTOR</P>
@@ -27,9 +27,9 @@
           <p>+974 444 333 222</p>
           <p>fb twitter linked-in </p>
         </div>
-        <div class="card-1-img"></div>
+        <div class="card-1-img elevation-4"></div>
       </div>
-      <div class="founder-card-2 elevation-2">
+      <div class="founder-card-2 elevation-0">
         <div class="card-2-content">
           <h2>CARL WINSLOW CHESTAR</h2>
           <P>MANAGING DIRECTOR</P>
@@ -37,7 +37,7 @@
           <p>+974 444 333 222</p>
           <p>fb twitter linked-in </p>
         </div>
-        <div class="card-2-img"></div>
+        <div class="card-2-img elevation-4"></div>
       </div>
     </div>
 
@@ -67,6 +67,28 @@
         </div>
       </div>
     </div>
+
+    <!--facts & figures-->
+    <div class="facts-figures">
+      <div class="facts-figures-heading">
+        <h1>FACTS & FIGURES</h1>
+      </div>
+      <div class="facts-figures-content">
+        <v-carousel hide-delimiters  class="caroitem">
+          <v-carousel-item
+            v-for="(item, i) in items"
+            :key="i"
+            :src="item.src">
+            <div class="carousel-title">
+              {{ item.title }}
+            </div>
+          </v-carousel-item>
+        </v-carousel>
+        <div class="facts-figures-heading-2">
+          <p>18K TOTOAL PRO BONO HOURS</p>
+        </div>
+      </div>
+    </div>
   </v-app>
 </template>
 
@@ -80,7 +102,13 @@ export default {
   },
   data () {
     return {
-      dialog: false
+      items: [
+        { src: '', title: '4K PRO BONO FOR INDIVIDUALS' },
+        { src: '', title: '4K PRO BONO FOR CORPORATE' },
+        { src: '', title: '5K PRO BONO FOR SMES' },
+        { src: '', title: '3K PRO BONO FOR WOMEN' },
+        { src: '', title: '2K PRO BONO FOR LEAGAL EDUCATION' }
+      ]
     }
   },
   methods: {
@@ -160,7 +188,7 @@ export default {
   grid-row: 3 / span 4;
   display: flex;
   padding: 40px 0 0 10px;
-  /*border: 1px solid black;*/
+  border: 1px solid black;
 }
 .card-1-content{
   width: 80%;
@@ -180,7 +208,7 @@ export default {
   grid-row: 8 / span 4;
   display: flex;
   padding: 40px 0 0 10px;
-  /*border: 1px solid black;*/
+  border: 1px solid black;
 }
 .card-2-content{
   width: 80%;
@@ -194,7 +222,7 @@ export default {
   width: 100%;
   height: 100%;
 }
-/*----------FOUNDERS----------*/
+/*----------OUR VALUES----------*/
 .our-values{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -202,20 +230,19 @@ export default {
   width: 100%;
   height: 100vh;
 }
-/*----------OUR VALUES----------*/
 .content-para-1{
   margin-top: 160px;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   letter-spacing: 0.4rem;
 }
 .content-para-2{
   margin-top: 100px;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   letter-spacing: 0.4rem;
 }
 .content-para-3{
   margin-top: 150px;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   letter-spacing: 0.4rem;
 }
 .our-value-header{
@@ -235,22 +262,66 @@ export default {
   background-color: black;
 }
 .leagle-practice{
-  width: 50%;
+  width: 100%;
   height: 100%;
   padding: 50px 60px 0 0;
   border: 0.01rem solid rgba(253, 243, 231, 0.123);
 }
 .client-focus{
-  width: 50%;
+  width: 100%;
   height: 100%;
   padding: 50px 60px 0 0;
   border: 0.01rem solid rgba(253, 243, 231, 0.123);
 }
 .higest-levels{
-  width: 50%;
+  width: 100%;
   height: 100%;
   padding: 50px 60px 0 0;
   border: 0.01rem solid rgba(253, 243, 231, 0.123);
+}
+/*----------FACTS & FIGURES----------*/
+.facts-figures{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  width: 100%;
+  height: 100vh;
+}
+.facts-figures-heading{
+  grid-column: 5 / span 2;
+  grid-row: 2 / span 1;
+  color: #212D3B;
+  /*border: 1px solid black;*/
+  display: flex;
+  align-items: center;
+}
+.facts-figures-content{
+  grid-column: 4 / span 9;
+  grid-row: 3 / span 6;
+  /*border: 1px solid black;*/
+}
+.carousel{
+  box-shadow: none;
+}
+.carousel-title{
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: 'montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #212D3B;
+  position: absolute;
+  margin-left: 22%;
+  margin-top: 20%;
+}
+.theme--dark .btn, .application .theme--dark.btn{
+  color: black;
+}
+.jumbotron{
+  width: 1000px;
+}
+.facts-figures-heading-2{
+ margin-left: 12%; 
+ font-size: 1.3rem;
+ color: #212D3B;
 }
 </style>
 
