@@ -78,17 +78,51 @@
           <v-carousel-item
             v-for="(item, i) in items"
             :key="i"
-            :src="item.src">
+            :src="item.src"
+            reverse-transition="fade"
+            transition="fade">
             <div class="carousel-title">
               {{ item.title }}
             </div>
           </v-carousel-item>
         </v-carousel>
         <div class="facts-figures-heading-2">
-          <p>18K TOTOAL PRO BONO HOURS</p>
+          <p>18K TOTOAL PRO BONO HOURS....</p>
         </div>
       </div>
     </div>
+
+     <!--achievements-->
+     <div class="achievements">
+       <div class="achievements-header">
+         <h1>ACHIEVEMENTS</h1>
+       </div>
+       <div class="achievements-content">
+         <v-tabs
+          slot="extension"
+          v-model="tab"
+          color="cyan"
+          grow>
+          <v-tabs-slider color="yellow"></v-tabs-slider>
+          <v-tab
+           v-for="content in contents" 
+           :key="content.id"
+           :href="'#tab-' + content.id">
+            {{  content.title }}
+          </v-tab>
+         </v-tabs>
+         <v-tabs-items v-model="tab">
+           <v-tab-item
+            v-for="content in contents"
+            :key="content"
+            :id="'tab-' + content.id">
+            <v-card flat>
+              <v-card-text>{{ content.text }}</v-card-text>
+            </v-card>
+           </v-tab-item>
+         </v-tabs-items>
+       </div>
+     </div>
   </v-app>
 </template>
 
@@ -108,6 +142,29 @@ export default {
         { src: '', title: '5K PRO BONO FOR SMES' },
         { src: '', title: '3K PRO BONO FOR WOMEN' },
         { src: '', title: '2K PRO BONO FOR LEAGAL EDUCATION' }
+      ],
+      tab: null,
+      contents: [
+        {
+          title: '2007',
+          text: 'This is 2007 content',
+          id: 1
+        },
+        {
+          title: '2008',
+          text: 'This is 2008 content',
+          id: 2
+        },
+        {
+          title: '2009',
+          text: 'This is 2009 content',
+          id: 3
+        },
+        {
+          title: '2010',
+          text: 'This is 2010 content',
+          id: 4
+        }
       ]
     }
   },
@@ -119,6 +176,19 @@ export default {
 </script>
 
 <style scoped>
+.fade-enter-active,
+.fade-leave-active,
+.fade-leave-to{
+  transition: 0.3s ease-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.fade-enter,
+.fade-enter,
+.fade-leave-to{
+  opacity: 0;
+}
 .hero{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -241,7 +311,7 @@ export default {
   letter-spacing: 0.4rem;
 }
 .content-para-3{
-  margin-top: 150px;
+  margin-top: 180px;
   font-size: 1.1rem;
   letter-spacing: 0.4rem;
 }
@@ -322,6 +392,28 @@ export default {
  margin-left: 12%; 
  font-size: 1.3rem;
  color: #212D3B;
+}
+/*----------OUR VALUES----------*/
+.achievements{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  width: 100%;
+  height: 100vh;
+}
+.achievements-header{
+  grid-column: 5 / span 7;
+  grid-row: 1 / span 1;
+  display: flex;
+  align-items: center;
+}
+.achievements-content{
+  grid-column: 5 / span 7;
+  grid-row: 2 / span 8;
+  border: 1px solid black; 
+}
+.tabs a{
+  color: #FDF3E7;
 }
 </style>
 
