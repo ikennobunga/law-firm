@@ -98,13 +98,14 @@
          <h1>ACHIEVEMENTS</h1>
        </div>
        <div class="achievements-content">
-         <v-tabs
+         <v-tabs class="container" 
           slot="extension"
           v-model="tab"
-          color="cyan"
+          color="grey darken-4"
+          dark
           grow>
-          <v-tabs-slider color="yellow"></v-tabs-slider>
-          <v-tab
+          <v-tabs-slider color="grey lighten-5"></v-tabs-slider>
+          <v-tab class="container-2"
            v-for="content in contents" 
            :key="content.id"
            :href="'#tab-' + content.id">
@@ -116,13 +117,43 @@
             v-for="content in contents"
             :key="content"
             :id="'tab-' + content.id">
-            <v-card flat>
-              <v-card-text>{{ content.text }}</v-card-text>
+            <v-card flat class="back-cover">
+              <v-card-text><p class="para">{{ content.text }}</p></v-card-text>
             </v-card>
            </v-tab-item>
          </v-tabs-items>
        </div>
      </div>
+
+     <!--footer-->
+     <footer class="footer-container elevation-5">
+      <div class="footerContent">
+        <div class="content1">
+          <h3>ABOUT US</h3>
+          <h3>AWARDS</h3>
+          <h3>CSR</h3>
+          <h3>NEWS</h3>
+          <h3>SECTORS</h3>
+          <h3>SERVICES</h3>
+          <h3>PEOPLE</h3>
+          <h3>CAREERS</h3>
+        </div>
+        <div class="content2">
+          <h3>LATEST NEWS</h3>
+          <h3>UPCPMMING EVENTS</h3>
+          <h3>VIDEOS</h3>
+          <h3>CONTACT</h3>          
+        </div>
+        <div class="content3">
+          <h3>FIND US ON</h3>
+          <p><i class="fab fa-facebook-square"></i></p>
+          <p><i class="fab fa-twitter-square"></i></p>
+          <p><i class="fab fa-instagram"></i></p>
+          <p><i class="fab fa-linkedin"></i></p>
+        </div>
+        <div class="line-2"></div>
+      </div>
+    </footer>
   </v-app>
 </template>
 
@@ -147,23 +178,58 @@ export default {
       contents: [
         {
           title: '2007',
-          text: 'This is 2007 content',
+          text: 'The firm is foundered by Mohammed Al-Ansari primarily as a boutique litigation firm, under Mohammed Ahmed Al-Ansari Law Office (Lawyers & Legal Consultants). ',
           id: 1
         },
         {
           title: '2008',
-          text: 'This is 2008 content',
+          text: 'The firm expands with the addition of senior lawyer Hossam F. Khamis, and expands its offering to include commercial and business law capability. ',
           id: 2
         },
         {
           title: '2009',
-          text: 'This is 2009 content',
+          text: 'Salman Al-Ansari joins the firm as a Partner, and the team expands rapidly to respond to the firm’s growing reputation in a rapidly expanding Qatar legal market. ',
           id: 3
         },
         {
           title: '2010',
-          text: 'This is 2010 content',
+          text: 'Managing Partner Mohammed Al-Ansari is elected to the Board of the Qatar Lawyers Association and made Chair of the Public and International Relations Committee.   ',
           id: 4
+        },
+        {
+          title: '2011',
+          text: 'The firm is named in Legal500 as a Recommended Firm. The firm promots Hossam Farooq  to be a Partner and Head of Dispute Resolution.  ',
+          id: 5
+        },
+        {
+          title: '2012',
+          text: 'Managing Partner Mohammed Al-Ansari is elected to the Board of the Qatar Lawyers Association and made Chair of the Public and International Relations Committee.   ',
+          id: 6
+        },
+        {
+          title: '2013',
+          text: 'Mohammed Al-Ansari is recognized for his efforts to support the community through the firm’s pro bono program by the National Human Rights Committee. ',
+          id: 7
+        },
+        {
+          title: '2014',
+          text: 'The firm wins the Award for Middle East M&A Deal of the Year at the 7th Annual Global Major Markets Awards for its work on Barwa Real Estate acquisitions. ',
+          id: 8
+        },
+        {
+          title: '2015',
+          text: 'The firm wins the Award for Middle East M&A Deal of the Year at the 7th Annual Global Major Markets Awards for its work on Barwa Real Estate acquisitions. ',
+          id: 9
+        },
+        {
+          title: '2016',
+          text: 'Al-Ansari & Associates wins the ACC Middle East Achievement Award at the 2016 Corporate Counsel Middle East Awards. ',
+          id: 10
+        },
+        {
+          title: '2017',
+          text: 'Salman Al-Ansari was awarded the ACC Middle East Achievement Award 2017 based on his work in relation to the promotion of the welfare of professional footballers. ',
+          id: 11
         }
       ]
     }
@@ -393,13 +459,15 @@ export default {
  font-size: 1.3rem;
  color: #212D3B;
 }
-/*----------OUR VALUES----------*/
+/*----------ACHIEVEMENTS----------*/
 .achievements{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 1fr);
   width: 100%;
   height: 100vh;
+  position: sticky;
+  top: 0;
 }
 .achievements-header{
   grid-column: 5 / span 7;
@@ -409,11 +477,83 @@ export default {
 }
 .achievements-content{
   grid-column: 5 / span 7;
-  grid-row: 2 / span 8;
+  grid-row: 2 / span 5;
   border: 1px solid black; 
 }
-.tabs a{
-  color: #FDF3E7;
+.para{
+  font-family: 'montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.6rem;
+  color: #212D3B;
+}
+.back-cover{
+  padding-top: 80px;
+  background-color: #FAFAFA;
+}
+.container{
+  background-color: #212D3B;
+  border-radius: 8px;
+}
+.container-2{
+  background: #212D3B; 
+}
+/*----------FOOTER----------*/
+h3{
+  transition-duration: 0.5s; 
+}
+h3:hover{
+  color: #B09862;
+  font-size: 0.9rem;
+}
+.footer-container{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  height: 50vh;
+  background-color: rgba(255, 255, 255, 0.918);
+  margin-left: 360px;
+}
+.footerContent{
+  grid-column: 2 / span 10;
+  grid-row: 3 / span 8;
+  font-family: 'montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  font-size: 0.8rem;
+  line-height: 2rem;
+  color: #212D3B;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  /*border: 1px solid black;*/
+}
+.content1{
+  width: 30%;
+  height: 100%;
+  /*border: 1px solid black;*/
+}
+.content2{
+  width: 30%;
+  height: 100%;
+  /*border: 1px solid black;*/
+}
+.content3{
+  width: 30%;
+  height: 100%;
+  /*border: 1px solid black;*/
+}
+.fab{
+  color: #212D3B;
+  font-size: 20px;
+  transition-duration: 0.5s;
+}
+.fab:hover{
+  color: #B09862;
+  font-size: 15px;
+}
+.line-2{
+  width: 50%;
+  height: 1px;
+  background-color: #212D3B;
+  position: absolute;
+  margin-top: 250px;
 }
 </style>
 
