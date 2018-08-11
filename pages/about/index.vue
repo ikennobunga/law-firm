@@ -80,7 +80,8 @@
             :key="i"
             :src="item.src"
             reverse-transition="fade"
-            transition="fade">
+            transition="fade"
+            >
             <div class="carousel-title">
               {{ item.title }}
             </div>
@@ -122,6 +123,13 @@
             </v-card>
            </v-tab-item>
          </v-tabs-items>
+       </div>
+       <div class="achievement-text">
+         <p class="achievement-para">
+           "The first step toward success is taken when you refuse to be a captive of the environment in which you first find yourself."
+           <br/>
+
+         </p>
        </div>
      </div>
 
@@ -448,7 +456,7 @@ export default {
   margin-left: 22%;
   margin-top: 20%;
 }
-.theme--dark .btn, .application .theme--dark.btn{
+.btn .btn--icon .theme--dark{
   color: black;
 }
 .jumbotron{
@@ -478,7 +486,7 @@ export default {
 .achievements-content{
   grid-column: 5 / span 7;
   grid-row: 2 / span 5;
-  border: 1px solid black; 
+  /*border: 1px solid black;*/ 
 }
 .para{
   font-family: 'montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -490,11 +498,22 @@ export default {
   background-color: #FAFAFA;
 }
 .container{
-  background-color: #212D3B;
+  background-color: black;
   border-radius: 8px;
 }
 .container-2{
-  background: #212D3B; 
+  background: black; 
+}
+.achievement-text{
+  grid-column: 5 / span 7;
+  grid-row: 9 / span 3;
+  /*border: 1px solid black;*/
+}
+.achievement-para{
+  font-family: 'montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+  color: #BA9A5B;
 }
 /*----------FOOTER----------*/
 h3{
@@ -511,6 +530,7 @@ h3:hover{
   height: 50vh;
   background-color: rgba(255, 255, 255, 0.918);
   margin-left: 360px;
+  z-index: 999;
 }
 .footerContent{
   grid-column: 2 / span 10;
