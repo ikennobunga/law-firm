@@ -1,5 +1,6 @@
 <template>
   <v-app>
+     <!--hero-->
     <div class="hero">
       <div class="about-block">
         <h1>ABOUT</h1>
@@ -134,7 +135,7 @@
      </div>
 
      <!--footer-->
-     <footer class="footer-container elevation-5">
+    <footer class="footer-container elevation-5">
       <div class="footerContent">
         <div class="content1">
           <h3>ABOUT US</h3>
