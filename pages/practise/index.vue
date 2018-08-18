@@ -159,7 +159,18 @@
 </template>
 
 <script>
+import { TweenMax } from 'gsap'
 
+export default {
+  methods: {
+    animate: function () {
+      TweenMax.from('.banking-insurance-header', 3, {scale: 0})
+    }
+  },
+  mounted () {
+    this.animate()
+  }
+}
 </script>
 
 <style scoped>
@@ -167,6 +178,7 @@
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 1fr);
+  /*background-color: #D5D5D4;*/
   width: 100%;
   height: 100vh;
 }
@@ -196,6 +208,9 @@
   z-index: 999;
   transition-duration: 1s;
 }
+.hero-img:hover{
+  transform: scaleX(1.1);
+}
 .about-hero-text{
   grid-column: 5 / span 7;
   grid-row: 10 / span 2;
@@ -222,6 +237,8 @@ h4{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(60, 1fr);
+  /*background-color: #D5D5D4;*/
+  margin-top: 10px;
   width: 100%;
   height: 500vh;
 }
