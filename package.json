@@ -11,6 +11,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "ks-vue-scrollmagic": "^1.0.2",
     "npm": "^5.10.0",
     "nuxt": "^1.0.0",
     "rellax": "^1.6.2",
