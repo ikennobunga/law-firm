@@ -159,17 +159,15 @@
 </template>
 
 <script>
-import { TweenMax } from 'gsap'
-
 export default {
-  methods: {
+  /* methods: {
     animate: function () {
       TweenMax.from('.banking-insurance-header', 3, {scale: 0})
     }
   },
   mounted () {
     this.animate()
-  }
+  } */
 }
 </script>
 

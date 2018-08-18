@@ -7,10 +7,8 @@
 </template>
 
 <script>
-import { TweenMax, Back } from 'gsap'
-
 export default {
-  transition: {
+  /* transition: {
     mode: 'out-in',
     css: false,
     beforeEnter (el) {
@@ -36,7 +34,7 @@ export default {
       })
       done()
     }
-  }
+  } */
 }
 </script>
 
