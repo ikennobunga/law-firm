@@ -3,7 +3,7 @@
     <!--hero-->
     <div class="hero">
       <div class="practice-block">
-        <h1>PRACTICE</h1>
+        <h1 class="heading">PRACTICE</h1>
         <p class="block">Al-Ansari & Associates</p>
       </div>
        <div class="hero-img"></div>
@@ -163,11 +163,17 @@
 </template>
 
 <script>
-import { TweenMax } from 'gsap'
+import { TweenMax, TimelineMax } from 'gsap'
 export default {
   methods: {
     animate: function () {
-      TweenMax.from('.practice-block', .6, {scale: 0})
+      let tl = new TimelineMax()
+       tl.from('.practice-block', .6, {scale: 0})
+         .from('.heading', .4, {scale: 0})
+         .from('.block', .4, {scale: 0})
+         .from('.block-2', .4, {scale: 0})
+       
+
     }
   },
   mounted () {
