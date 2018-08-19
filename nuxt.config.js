@@ -17,11 +17,14 @@ module.exports = {
     ]
   },
   plugins: [
-    '~/plugins/vuetify.js'
+    { src: '~/plugins/vuetify.js' },
+    { src: '~/plugins/aos.js', ssr: false },
+    { src: '~/plugins/ksvuescrollmagic', ssr: false } 
   ],
   css: [
     '~/assets/style/app.styl',
-    '~/assets/style/main.css'
+    '~/assets/style/main.css',
+    'aos/dist/aos.css'
   ],
   /*
   ** Customize the progress bar color
@@ -31,7 +34,7 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    vendor: [ '~/plugins/vuetify.js' ],
+    vendor: [ '~/plugins/vuetify.js', '~/plugins/aos.js', '~/plugins/ksvuescrollmagic'  ],
     extractCSS: true,
     /*
     ** Run ESLint on save
@@ -40,8 +43,8 @@ module.exports = {
       if (ctx.isDev && ctx.isClient) {
         config.module.rules.push({
           enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
+          // test: /\.(js|vue)$/,
+         // loader: 'eslint-loader',
           exclude: /(node_modules)/
         })
       }

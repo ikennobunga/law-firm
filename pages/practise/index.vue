@@ -18,9 +18,13 @@
     <div class="practice-content">
 
       <div class="banking-insurance-header">
-        <h4>BANKING & INSURANCE</h4>
+        <h4 data-aos="fade-up" 
+          data-aos-duration="3000">
+          BANKING & INSURANCE
+        </h4>
       </div>
-      <div class="banking-insurance"></div>
+      <div class="banking-insurance" data-aos="fade-up"
+        data-aos-duration="2000"></div>
       <div class="banking-text">
         <p class="content-paragragh">
           Clients trust us to manage and protect their intellectual property, reputations, and brands. Are you looking to file a copyright, trademark, or patent? We can help. We’ll guide you through the registration and licensing process, advise you about your IP rights, and enforce those rights as necessary. 
@@ -159,15 +163,16 @@
 </template>
 
 <script>
+import { TweenMax } from 'gsap'
 export default {
-  /* methods: {
+  methods: {
     animate: function () {
-      TweenMax.from('.banking-insurance-header', 3, {scale: 0})
+      TweenMax.from('.practice-block', .6, {scale: 0})
     }
   },
   mounted () {
     this.animate()
-  } */
+  }
 }
 </script>
 
