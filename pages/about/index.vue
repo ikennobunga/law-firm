@@ -3,7 +3,7 @@
      <!--hero-->
     <div class="hero">
       <div class="about-block">
-        <h1>ABOUT</h1>
+        <h1 class="heading">ABOUT</h1>
         <p class="block">Al-Ansari & Associates</p>
       </div>
       <div class="about-hero-text">
@@ -18,9 +18,13 @@
     <!--founders-->
     <div class="founders">
       <div class="founders-heading">
-        <h1>FOUNDERS</h1>
+        <h1 data-aos="fade-up"
+            data-aos-duration="3000">
+          FOUNDERS
+        </h1>
       </div>
-      <div class="founder-card-1 elevation-0">
+      <div class="founder-card-1 elevation-0" data-aos="fade-up"
+        data-aos-duration="2000">
         <div class="card-1-content">
           <h2>SHAWN KEMP WHITEKER</h2>
           <P>MANAGING DIRECTOR</P>
@@ -30,7 +34,8 @@
         </div>
         <div class="card-1-img elevation-4"></div>
       </div>
-      <div class="founder-card-2 elevation-0">
+      <div class="founder-card-2 elevation-0" data-aos="fade-up"
+        data-aos-duration="2000">
         <div class="card-2-content">
           <h2>CARL WINSLOW CHESTAR</h2>
           <P>MANAGING DIRECTOR</P>
@@ -45,24 +50,41 @@
     <!--our-values-->
     <div class="our-values">
       <div class="our-value-header">
-        <h1>OUR VALUES</h1>
+        <h1 data-aos="fade-up"
+            data-aos-duration="3000">
+            OUR VALUES
+          </h1>
       </div>
-      <div class="our-value-content">
+      <div class="our-value-content" 
+        data-aos="fade-up" 
+        data-aos-duration="2000">
         <div class="leagle-practice">
-          <h2>LEAGAL PRACTICE</h2>
-          <P class="content-para-1">
+          <h2 data-aos="fade-up"
+              data-aos-duration="3000">
+              LEAGAL PRACTICE
+          </h2>
+          <P class="content-para-1" data-aos="fade-up"
+            data-aos-duration="2000">
             Our practice is underpinned by a deep understanding of local laws and of the sectors in which our clients operate. We provide expert counsel and innovative solutions to complex issues.
           </P>
         </div>
         <div class="client-focus">
-          <h2>CLIENT FOCUS</h2>
-          <P class="content-para-2">
+          <h2 data-aos="fade-up"
+              data-aos-duration="4000">
+              CLIENT FOCUS
+          </h2>
+          <P class="content-para-2" data-aos="fade-up"
+            data-aos-duration="2000">
             We pride ourselves on providing efficient, responsive and courteous service. We add value for our clients by providing training and information to support their business in the region.
           </P>
         </div>
         <div class="higest-levels">
-          <h2>HIGEST LEVELS</h2>
-          <p class="content-para-3">
+          <h2 data-aos="fade-up"
+              data-aos-duration="2000">
+              HIGEST LEVELS
+          </h2>
+          <p class="content-para-3" data-aos="fade-up"
+            data-aos-duration="2000">
             We are proud to offer legal services and expertise with international standards. Our core strength is the diversity and experience of our legal professionals with commitment to the highest standards.
           </p>
         </div>
@@ -167,6 +189,7 @@
 </template>
 
 <script>
+import { TweenMax } from 'gsap'
 import Home from '@/components/Home'
 import Card3 from '@/components/Card3'
 export default {
@@ -244,6 +267,16 @@ export default {
     }
   },
   methods: {
+    animate: function () {
+      let tl = new TimelineMax()
+       tl.from('.about-block',  .4, {scale: 0})
+         .from('.heading', .5, {scale: .9})
+         .from('.block', .5, {scale: .9})
+         .from('.block-2', .5, {scale: .9})
+    }
+  },
+  mounted () {
+    this.animate()
   },
   computed: {
   }

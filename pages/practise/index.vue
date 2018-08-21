@@ -16,7 +16,7 @@
 
     <!--practice-content-->
     <div class="practice-content">
-
+       <!--banking-content-->
       <div class="banking-insurance-header">
         <h4 data-aos="fade-up" 
           data-aos-duration="3000">
@@ -25,110 +25,187 @@
       </div>
       <div class="banking-insurance" data-aos="fade-up"
         data-aos-duration="2000"></div>
-      <div class="banking-text">
+      <div class="banking-text" data-aos="fade-up" 
+        data-aos-duration="3000">
         <p class="content-paragragh">
           Clients trust us to manage and protect their intellectual property, reputations, and brands. Are you looking to file a copyright, trademark, or patent? We can help. We’ll guide you through the registration and licensing process, advise you about your IP rights, and enforce those rights as necessary. 
         </p>
       </div>
+
+       <!--constraction-content-->
       <div class="constraction-infastructure-header">
-        <h4>CONSTRUCTION & INFUSTRUCTURE</h4>
+        <h4 data-aos="fade-up"
+          data-aos-duration="3000">
+          CONSTRUCTION & INFUSTRUCTURE
+        </h4>
       </div>
-      <div class="constraction-infastructure"></div>
-      <div class="constraction-text">
+      <div class="constraction-infastructure" data-aos="fade-up"
+        data-aos-duration="2000"></div>
+      <div class="constraction-text" data-aos="fade-up"
+        data-aos-duration="3000">
         <p class="content-paragragh">
           Clients trust us to manage and protect their intellectual property, reputations, and brands. Are you looking to file a copyright, trademark, or patent? We can help. We’ll guide you through the registration and licensing process, advise you about your IP rights, and enforce those rights as necessary. 
         </p>
       </div>
+
+       <!--education-content-->
       <div class="education-header">
-        <h4>EDUCATION</h4>
+        <h4 data-aos="fade-up"
+          data-aos-duration="3000">
+          EDUCATION
+        </h4>
       </div>
-      <div class="education"></div>
-      <div class="education-text">
+      <div class="education" data-aos="fade-up"
+        data-aos-duration="2000"></div>
+      <div class="education-text" data-aos="fade-up"
+        data-aos-duration="3000">
         <p class="content-paragragh">
           Clients trust us to manage and protect their intellectual property, reputations, and brands. Are you looking to file a copyright, trademark, or patent? We can help. We’ll guide you through the registration and licensing process, advise you about your IP rights, and enforce those rights as necessary. 
         </p>
       </div>
+
+       <!--employment-content-->
       <div class="employment-header">
-        <h4>EMPLOYMENT</h4>
+        <h4 data-aos="fade-up"
+          data-aos-duration="3000">
+          EMPLOYMENT
+        </h4>
       </div>
-      <div class="employment"></div>
-      <div class="employment-text">
+      <div class="employment" data-aos="fade-up"
+        data-aos-duration="2000"></div>
+      <div class="employment-text" data-aos="fade-up"
+        data-aos-duration="3000">
         <p class="content-paragragh">
           Clients trust us to manage and protect their intellectual property, reputations, and brands. Are you looking to file a copyright, trademark, or patent? We can help. We’ll guide you through the registration and licensing process, advise you about your IP rights, and enforce those rights as necessary. 
         </p>
       </div>
+
+       <!--energy-content-->
       <div class="energy-natural-resources-header">
-        <h4>ENERGY & NATURAL RESOURCES</h4>
+        <h4 data-aos="fade-up"
+          data-aos-duration="3000">
+          ENERGY & NATURAL RESOURCES
+        </h4>
       </div>
-      <div class="energy-natural-resources"></div>
-      <div class="energy-natural-resources-text">
+      <div class="energy-natural-resources" data-aos="fade-up"
+        data-aos-duration="2000"></div>
+      <div class="energy-natural-resources-text" data-aos="fade-up"
+        data-aos-duration="3000">
          <p class="content-paragragh">
           Clients trust us to manage and protect their intellectual property, reputations, and brands. Are you looking to file a copyright, trademark, or patent? We can help. We’ll guide you through the registration and licensing process, advise you about your IP rights, and enforce those rights as necessary. 
         </p>
       </div>
+
+       <!--health-content-->
       <div class="health-care-header">
-        <h4>HEALTH CARE</h4>
+        <h4 data-aos="fade-up"
+            data-aos-duration="3000">
+          HEALTH CARE
+        </h4>
       </div>
-      <div class="health-care"></div>
-      <div class="health-care-text">
+      <div class="health-care" data-aos="fade-up"
+        data-aos-duration="2000"></div>
+      <div class="health-care-text" data-aos="fade-up"
+        data-aos-duration="3000">
         <p class="content-paragragh">
           Clients trust us to manage and protect their intellectual property, reputations, and brands. Are you looking to file a copyright, trademark, or patent? We can help. We’ll guide you through the registration and licensing process, advise you about your IP rights, and enforce those rights as necessary. 
         </p>
       </div>
+
+       <!--hospitality-content-->
       <div class="hospitality-header">
-        <h4>HOSPITALITY</h4>
+        <h4 data-aos="fade-up"
+            data-aos-duration="3000">
+            HOSPITALITY
+          </h4>
       </div>
-      <div class="hospitality"></div>
-      <div class="hospitality-text">
+      <div class="hospitality" data-aos="fade-up"
+        data-aos-duration="2000"></div>
+      <div class="hospitality-text" data-aos="fade-up"
+        data-aos-duration="3000">
         <p class="content-paragragh">
           Clients trust us to manage and protect their intellectual property, reputations, and brands. Are you looking to file a copyright, trademark, or patent? We can help. We’ll guide you through the registration and licensing process, advise you about your IP rights, and enforce those rights as necessary. 
         </p>
       </div>
+
+       <!--interlectual-content-->
       <div class="interlectual-property-header">
-        <h4>INTERLECTUAL PROPERTY & COPYRIGHT</h4>
+        <h4 data-aos="fade-up"
+            data-aos-duration="3000">
+            INTERLECTUAL PROPERTY & COPYRIGHT
+          </h4>
       </div>
-      <div class="interlectual-property"></div>
-      <div class="interlectual-property-text">
+      <div class="interlectual-property" data-aos="fade-up"
+        data-aos-duration="2000"></div>
+      <div class="interlectual-property-text" data-aos="fade-up"
+        data-aos-duration="3000">
         <p class="content-paragragh">
           Clients trust us to manage and protect their intellectual property, reputations, and brands. Are you looking to file a copyright, trademark, or patent? We can help. We’ll guide you through the registration and licensing process, advise you about your IP rights, and enforce those rights as necessary. 
         </p>
       </div>
+
+       <!--realestate-content-->
       <div class="realestate-header">
-        <h4>REALESTATE</h4>
+        <h4 data-aos="fade-up"
+          data-aos-duration="3000">
+          REALESTATE
+        </h4>
       </div>
-      <div class="realestate"></div>
-      <div class="realestate-text">
+      <div class="realestate" data-aos="fade-up"
+        data-aos-duration="2000"></div>
+      <div class="realestate-text" data-aos="fade-up"
+        data-aos-duration="3000">
         <p class="content-paragragh">
           Clients trust us to manage and protect their intellectual property, reputations, and brands. Are you looking to file a copyright, trademark, or patent? We can help. We’ll guide you through the registration and licensing process, advise you about your IP rights, and enforce those rights as necessary. 
         </p>
       </div>
+
+       <!--telecome-content-->
       <div class="telecome-media-header">
-        <h4>TELECOM MEDIA & TECHNOLOGY</h4>
+        <h4 data-aos="fade-up"
+            data-aos-duration="3000">
+            TELECOM MEDIA & TECHNOLOGY
+          </h4>
       </div>
-      <div class="telecome-media"></div>
-      <div class="telecome-media-text">
+      <div class="telecome-media" data-aos="fade-up"
+        data-aos-duration="2000"></div>
+      <div class="telecome-media-text" data-aos="fade-up"
+        data-aos-duration="3000">
         <p class="content-paragragh">
           Clients trust us to manage and protect their intellectual property, reputations, and brands. Are you looking to file a copyright, trademark, or patent? We can help. We’ll guide you through the registration and licensing process, advise you about your IP rights, and enforce those rights as necessary. 
         </p>
       </div>
+
+       <!--sports-content-->
       <div class="sports-entertainment-header">
-        <h4>SPORTS & ENTERTAINMENT</h4>
+        <h4 data-aos="fade-up"
+            data-aos-duration="3000">
+            SPORTS & ENTERTAINMENT
+          </h4>
       </div>
-      <div class="sports-entertainment"></div>
-      <div class="sports-entertainment-text">
+      <div class="sports-entertainment" data-aos="fade-up"
+        data-aos-duration="2000"></div>
+      <div class="sports-entertainment-text" data-aos="fade-up"
+        data-aos-duration="3000">
         <p class="content-paragragh">
           Clients trust us to manage and protect their intellectual property, reputations, and brands. Are you looking to file a copyright, trademark, or patent? We can help. We’ll guide you through the registration and licensing process, advise you about your IP rights, and enforce those rights as necessary. 
         </p>
       </div>
+
+       <!--transport-content-->
       <div class="transport-logistics-header">
-        <h4>TRANSPORT & LOGISTICS</h4>
+        <h4 data-aos="fade-up"
+            data-aos-duration="3000">TRANSPORT & LOGISTICS</h4>
       </div>
-      <div class="transport-logistics"></div>
+      <div class="transport-logistics" data-aos="fade-up"
+        data-aos-duration="2000"></div>
       <div class="transport-logistics-text">
-        <p class="content-paragragh">
+        <p class="content-paragragh" data-aos="fade-up"
+          data-aos-duration="3000">
           Clients trust us to manage and protect their intellectual property, reputations, and brands. Are you looking to file a copyright, trademark, or patent? We can help. We’ll guide you through the registration and licensing process, advise you about your IP rights, and enforce those rights as necessary. 
         </p>
       </div>
+      
     </div>
 
     <footer class="footer-container">
@@ -168,12 +245,10 @@ export default {
   methods: {
     animate: function () {
       let tl = new TimelineMax()
-       tl.from('.practice-block', .6, {scale: 0})
-         .from('.heading', .4, {scale: 0})
-         .from('.block', .4, {scale: 0})
-         .from('.block-2', .4, {scale: 0})
-       
-
+       tl.from('.practice-block', .4, {scale: 0,})
+         .from('.heading', .5, {scale: .9})
+         .from('.block', .5, {scale: .9})
+         .from('.block-2', .6, {scale: .9})
     }
   },
   mounted () {
@@ -361,8 +436,8 @@ h4{
 .energy-natural-resources-text{
   grid-column: 4 / span 3;
   grid-row: 29 / span 4;
-  /*border: 1px solid black;
-  padding: 15px 0 0 15px;*/
+  /*border: 1px solid black;*/
+  padding: 15px 0 0 0;
 }
 .health-care-header{
   grid-column: 8 / span 2;
@@ -451,8 +526,8 @@ h4{
 .realestate-text{
   grid-column: 4 / span 3;
   grid-row: 47 / span 4;
-  /*border: 1px solid black;
-  padding: 15px 0 0 15px;*/
+  /*border: 1px solid black;*/
+  padding: 15px 0 0 0;
 }
 .telecome-media-header{
   grid-column: 8 / span 2;
