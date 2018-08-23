@@ -12,7 +12,7 @@
     </div>
     <!-- team-content-1 -->
     <div class="team-content">
-      <div class="team-content-1">
+      <div class="team-content-1" data-aos="fade-up-right" data-aos-duration="1000">
         <div class="team-contact">
           <p id="teamcontact">DIRECTOR / PARTNER</p>
           <p>
@@ -44,7 +44,7 @@
         </div>
       </div>
       <!-- team-content-2 -->
-      <div class="team-content-2">
+      <div class="team-content-2" data-aos="fade-up-left" data-aos-duration="2000">
         <div class="team-contact">
           <p id="teamcontact">PARTNER</p>
           <p>
@@ -76,7 +76,7 @@
         </div>
       </div>
       <!-- team-content-3 -->
-      <div class="team-content-3">
+      <div class="team-content-3" data-aos="fade-up-right" data-aos-duration="1000">
         <div class="team-contact">
           <p id="teamcontact">HEAD OF CORPORATE</p>
           <p>
@@ -108,7 +108,7 @@
         </div>
       </div>
       <!-- team-content-4 -->
-      <div class="team-content-4">
+      <div class="team-content-4" data-aos="fade-up-left" data-aos-duration="1000">
         <div class="team-contact">
           <p id="teamcontact">SENIOR ASSOCIATE</p>
           <p>
@@ -129,7 +129,7 @@
         </div>
       </div>
       <!-- team-content-5 -->
-      <div class="team-content-5">
+      <div class="team-content-5" data-aos="fade-up-right" data-aos-duration="1000">
         <div class="team-contact">
           <p id="teamcontact">SENIOR PARTNER</p>
           <p>
@@ -161,7 +161,7 @@
         </div>
       </div>
       <!-- team-content-6 -->
-      <div class="team-content-6">
+      <div class="team-content-6" data-aos="fade-left" data-aos-duration="2000">
         <div class="team-contact">
           <p id="teamcontact">DISPUTE & RESOLUTION</p>
           <p>
@@ -256,7 +256,11 @@ export default {
   } */
   methods: {
     animate: function () {
-
+      let tl = new TimelineMax()
+        tl.from('.team-block',  .4, {scale: 0})
+          .from('.heading', .5, {scale: .9})
+          .from('.block', .5, {scale: .9})
+          .from('.block-2', .5, {scale: .9})
     }
   },
   mounted () {
@@ -299,6 +303,10 @@ export default {
   background-size: 100%;
   background-position: center;
   z-index: 999;
+  transition-duration: 1s;
+}
+.hero-img:hover{
+  transform: scaleX(1.1);
 }
 .team-hero-text{
   grid-column: 5 / span 7;
@@ -342,6 +350,7 @@ export default {
 }
 .fas{
   margin: 0 0 0 15px;
+  font-size: 1.1rem
 }
 /* team-content-1 */
 .team-content-1{
@@ -512,9 +521,6 @@ export default {
   grid-column: 2 / span 6;
   grid-row: 7 / span 2;
   /* border: 1px solid white; */
-}
-.fab{
-  font-size: 20px;
 }
 /* footer */
 h3{

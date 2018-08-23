@@ -25,6 +25,17 @@
     </aside>
 </template>
 
+<script>
+export default {
+  methods: {
+    animate: function () {
+      TimelineMax.staggerFrom('.bold', 1, {opacity: 0}, .1)
+    }
+  }
+}
+</script>
+
+
 <style scoped>
 a{
   text-decoration: none;
@@ -37,7 +48,7 @@ a:hover{
   font-size: 29px;
 }
 .sidebar{
-  animation: yourAnimation 1.7s forwards 0s linear;
+  /* animation: yourAnimation 1.7s forwards 0s linear; */
   background-image: url('/sebastian-pichler-25154-unsplash.jpg');
   background-repeat: no-repeat;
   background-size: cover;
