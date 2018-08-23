@@ -205,7 +205,7 @@
           Clients trust us to manage and protect their intellectual property, reputations, and brands. Are you looking to file a copyright, trademark, or patent? We can help. We’ll guide you through the registration and licensing process, advise you about your IP rights, and enforce those rights as necessary. 
         </p>
       </div>
-      
+
     </div>
 
     <footer class="footer-container">
@@ -240,7 +240,7 @@
 </template>
 
 <script>
-import { TweenMax, TimelineMax } from 'gsap'
+//import { TweenMax, TimelineMax } from 'gsap'
 export default {
   methods: {
     animate: function () {
