@@ -190,7 +190,7 @@
         <div class="team-bio">
           <p id="teamcontact">FLOYD JAMES MAYFIELD</p>
           <P id="team-text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing provident enim at, cum consequatur voluptate ex nemo nihil ut, fugit nam. Voluptates, suscipit.
+            Lorem ipsum dolor sit amet consectetur adipisicing provident enim at, cum consequatur voluptate ex nemo nihil ut, fugit nam. Voluptates, suscipit.
           </P>
         </div>
       </div>
