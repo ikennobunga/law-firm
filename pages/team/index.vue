@@ -264,18 +264,6 @@ export default {
   methods: {
     animate: function () {
       let tl = new TimelineMax()
-       tl.from('.practice-block', .4, {scale: 0,})
-         .from('.heading', .5, {scale: .9})
-         .from('.block', .5, {scale: .9})
-         .from('.block-2', .6, {scale: .9})
-    }
-  },
-  mounted () {
-    this.animate()
-  }, 
-  methods: {
-    animate: function () {
-      let tl = new TimelineMax()
         tl.from('.team-block',  .4, {scale: 0})
           .from('.heading', .5, {scale: .9})
           .from('.block', .5, {scale: .9})
