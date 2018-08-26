@@ -7,7 +7,9 @@
       </div>
       <div class="hero-img"></div>
       <div class="team-hero-text">
-        <p class="block-2">Behind every successful businesss you will find a passionate dedicated not only a team but a family</p>
+        <p class="block-2">
+          <span class="big-l elevation-5">B</span>ehind every successful businesss you will find a passionate dedicated not only a team but a family
+        </p>
       </div>
     </div>
     <!-- team-content-1 -->
@@ -197,29 +199,6 @@
      <footer class="footer-container elevation-0">
       <div class="footerContent">
         <div class="content1">
-          <h3>ABOUT US</h3>
-          <h3>AWARDS</h3>
-          <h3>CSR</h3>
-          <h3>NEWS</h3>
-          <h3>SECTORS</h3>
-          <h3>SERVICES</h3>
-          <h3>PEOPLE</h3>
-          <h3>CAREERS</h3>
-        </div>
-        <div class="content2">
-          <h3>LATEST NEWS</h3>
-          <h3>UPCPMMING EVENTS</h3>
-          <h3>VIDEOS</h3>
-          <h3>CONTACT</h3>          
-        </div>
-        <div class="content3">
-          <h3>FIND US ON</h3>
-          <p><i class="fab fa-facebook-square"></i></p>
-          <p><i class="fab fa-twitter-square"></i></p>
-          <p><i class="fab fa-instagram"></i></p>
-          <p><i class="fab fa-linkedin"></i></p>
-        </div>
-        <div class="line-2"></div>
           <h3 data-aos="flip-up" data-aos-duration="1000">ABOUT US</h3>
           <h3 data-aos="flip-up" data-aos-duration="1000">AWARDS</h3>
           <h3 data-aos="flip-up" data-aos-duration="1000">CSR</h3>
@@ -243,7 +222,6 @@
           <p data-aos="flip-up" data-aos-duration="1000"><i class="fab fa-linkedin"></i></p>
         </div>
         <div class="line-2" data-aos="fade-right"></div>
-
       </div>
     </footer>
   </v-app>
