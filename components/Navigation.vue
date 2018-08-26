@@ -25,6 +25,20 @@
     </aside>
 </template>
 
+<script>
+export default {
+  /* methods: {
+    myTween: function() {
+      TweenMax.staggerFrom('.bold', .2, {opacity: 0, scale: .1, x: -80}, .1)
+    }
+  },
+  mounted(){
+    this.myTween()
+  } */
+}
+</script>
+
+
 <style scoped>
 a{
   text-decoration: none;

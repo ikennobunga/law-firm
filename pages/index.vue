@@ -27,11 +27,11 @@
     <section class="article2 elevation-5">
       <div class="article-content-heading-2">
         <h1>Corporate & Commercial</h1>
-        <div class="line"></div>
+        <!-- <div class="line"></div> -->
       </div>
       <div class="article-content-2">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit magnam et praesentium dolore nobis tempore itaque, similique doloremque repellendus ut neque eligendi laboriosam officiis architecto culpa nemo velit! Perspiciatis, dolore.
+          <span class="big-l elevation-5">L</span>oremipsum dolor sit amet consectetur adipisicing elit. Impedit magnam et praesentium dolore nobis tempore itaque, similique doloremque repellendus ut neque eligendi laboriosam officiis architecto culpa nemo velit! Perspiciatis, dolore.
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit magnam et praesentium dolore nobis tempore itaque, similique doloremque repellendus ut neque eligendi laboriosam officiis architecto culpa nemo velit! Perspiciatis, dolore.          
         </p>
       </div>
@@ -41,11 +41,11 @@
     <section class="article3 elevation-5">
       <div class="article-content-heading-3">
         <h1>Regulatory & Complience</h1>
-        <div class="line"></div>
+        <!-- <div class="line"></div> -->
       </div>
       <div class="article-content-3">
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus maiores minus voluptates molestias ratione nulla, quasi sequi at hic optio recusandae beatae officia iste earum magni alias labore, veniam laudantium!
+          <span class="big-l elevation-5">L</span>orem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus maiores minus voluptates molestias ratione nulla, quasi sequi at hic optio recusandae beatae officia iste earum magni alias labore, veniam laudantium!
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, temporibus. Rem, magnam dolore! Dolores iure a velit aut eaque molestias eligendi id, vitae distinctio ipsa fugiat earum laborum incidunt accusamus.
         </p>
       </div>
@@ -55,11 +55,11 @@
     <section class="article4 elevation-5">
       <div class="article-content-heading-4">
         <h1>Financial Crime</h1>
-        <div class="line"></div>
+        <!-- <div class="line"></div> -->
       </div>
       <div class="article-content-4">
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam porro a aliquam cupiditate enim saepe natus in repellendus illum magni quasi veritatis dolorum obcaecati, esse sit, velit placeat optio repellat.
+          <span class="big-l elevation-5">L</span>orem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam porro a aliquam cupiditate enim saepe natus in repellendus illum magni quasi veritatis dolorum obcaecati, esse sit, velit placeat optio repellat.
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium suscipit at, odit magni adipisci vel numquam. Molestias praesentium velit nulla! Voluptatum, dicta tenetur ut illo in commodi aperiam? Repudiandae, perferendis.
         </p>
       </div>
@@ -69,11 +69,11 @@
     <section class="article5 elevation-5">
       <div class="article-content-heading-5">
         <h1>Mergers & Aquisitions</h1>
-        <div class="line"></div>
+        <!-- <div class="line"></div> -->
       </div>
       <div class="article-content-5">
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam quisquam tempore itaque numquam aliquam dolores ex, architecto repudiandae quod quos aliquid, in reprehenderit quia minus dolor dolorem nemo illo temporibus!
+          <span class="big-l elevation-5">L</span>orem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam quisquam tempore itaque numquam aliquam dolores ex, architecto repudiandae quod quos aliquid, in reprehenderit quia minus dolor dolorem nemo illo temporibus!
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor laudantium debitis, recusandae doloremque ipsa, repellendus animi aperiam eveniet, reprehenderit unde harum! Neque ipsam modi eius commodi, quo earum aut blanditiis?
         </p>
       </div>
@@ -86,7 +86,7 @@
       </div>
       <div class="article-content-6">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quibusdam officiis sint quidem rem ab nobis, voluptates ullam rerum ex modi laborum voluptate aliquid incidunt eum eius, nostrum, impedit voluptatem.
+          <span class="big-l elevation-5">L</span>orem ipsum dolor sit amet consectetur adipisicing elit. Dolores quibusdam officiis sint quidem rem ab nobis, voluptates ullam rerum ex modi laborum voluptate aliquid incidunt eum eius, nostrum, impedit voluptatem.
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus adipisci modi, soluta possimus error amet fugiat expedita maiores unde velit, ipsam esse illo nulla dicta consectetur necessitatibus rerum animi! Tempora.
         </p>
       </div>
@@ -99,7 +99,7 @@
       </div>
       <div class="article-content-7">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus esse at perferendis perspiciatis repudiandae eius provident, repellendus, culpa quos quaerat nesciunt. Architecto, molestias voluptatum tempore dolor itaque ut. Atque, quam?
+          <span class="big-l elevation-5">L</span>orem ipsum dolor sit amet consectetur adipisicing elit. Accusamus esse at perferendis perspiciatis repudiandae eius provident, repellendus, culpa quos quaerat nesciunt. Architecto, molestias voluptatum tempore dolor itaque ut. Atque, quam?
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe esse cum aspernatur facere cumque modi ab quos, odit, recusandae voluptatum eligendi fuga rem ut veniam assumenda dicta, dolore cupiditate. Ut?
         </p>
       </div>
@@ -112,7 +112,7 @@
       </div>
       <div class="article-content-8">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus esse at perferendis perspiciatis repudiandae eius provident, repellendus, culpa quos quaerat nesciunt. Architecto, molestias voluptatum tempore dolor itaque ut. Atque, quam?
+          <span class="big-l elevation-5">L</span>orem ipsum dolor sit amet consectetur adipisicing elit. Accusamus esse at perferendis perspiciatis repudiandae eius provident, repellendus, culpa quos quaerat nesciunt. Architecto, molestias voluptatum tempore dolor itaque ut. Atque, quam?
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe esse cum aspernatur facere cumque modi ab quos, odit, recusandae voluptatum eligendi fuga rem ut veniam assumenda dicta, dolore cupiditate. Ut?
         </p>
       </div>
@@ -125,7 +125,7 @@
       </div>
       <div class="article-content-9">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus esse at perferendis perspiciatis repudiandae eius provident, repellendus, culpa quos quaerat nesciunt. Architecto, molestias voluptatum tempore dolor itaque ut. Atque, quam?
+          <span class="big-l elevation-5">L</span>orem ipsum dolor sit amet consectetur adipisicing elit. Accusamus esse at perferendis perspiciatis repudiandae eius provident, repellendus, culpa quos quaerat nesciunt. Architecto, molestias voluptatum tempore dolor itaque ut. Atque, quam?
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe esse cum aspernatur facere cumque modi ab quos, odit, recusandae voluptatum eligendi fuga rem ut veniam assumenda dicta, dolore cupiditate. Ut?
         </p>
       </div>
@@ -138,7 +138,7 @@
       </div>
       <div class="article-content-10">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus esse at perferendis perspiciatis repudiandae eius provident, repellendus, culpa quos quaerat nesciunt. Architecto, molestias voluptatum tempore dolor itaque ut. Atque, quam?
+          <span class="big-l elevation-5">L</span>orem ipsum dolor sit amet consectetur adipisicing elit. Accusamus esse at perferendis perspiciatis repudiandae eius provident, repellendus, culpa quos quaerat nesciunt. Architecto, molestias voluptatum tempore dolor itaque ut. Atque, quam?
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe esse cum aspernatur facere cumque modi ab quos, odit, recusandae voluptatum eligendi fuga rem ut veniam assumenda dicta, dolore cupiditate. Ut?
         </p>
       </div>
@@ -147,29 +147,29 @@
 
     <section class="article11 elevation-5">
       <div class="article-content-heading-11">
-        <h1>WHAT TO EXPECT</h1>
+        <h1 data-aos="zoom-out-up">WHAT TO EXPECT</h1>
       </div>
       <div class="commercial-awearness">
-        <h1>Commercial Awearness</h1>
-        <p>
+        <h1 data-aos="zoom-out-up" data-aos-duration="1000">Commercial Awearness</h1>
+        <p data-aos="zoom-out-up" data-aos-duration="2000">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem culpa quod sint et, natus ab asperiores mollitia recusandae eaque neque obcaecati animi commodi, molestiae sapiente veniam iure minima earum cumque.
         </p>
       </div>
       <div class="communication">
-        <h1>Communication</h1>
-        <p>
+        <h1 data-aos="zoom-out-up" data-aos-duration="1000">Communication</h1>
+        <p data-aos="zoom-out-up" data-aos-duration="2000">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia tempore sunt voluptas, maiores quo eaque quibusdam dolorem! Officiis, obcaecati minus. Cupiditate exercitationem magnam quidem! Unde expedita provident sed aperiam repellendus!Deleniti, eum aperiam molestiae perspiciat.
         </p>
       </div>
       <div class="duedeligence">
-        <h1>Duedeligence</h1>
-        <p>
+        <h1 data-aos="zoom-out-up" data-aos-duration="1000">Duedeligence</h1>
+        <p data-aos="zoom-out-up" data-aos-duration="2000">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis incidunt eveniet sequi saepe magni earum omnis laboriosam ipsum minima rem beatae mollitia repudiandae dicta culpa, quis perferendis hic? Magni, aspernatur?Totam deleniti nam voluptate, molestiae rem vel dolorum aliquam q.
         </p>
       </div>
       <div class="time-managment">
-        <h1>Time Managment</h1>
-        <p>
+        <h1 data-aos="zoom-out-up" data-aos-duration="1000">Time Managment</h1>
+        <p data-aos="zoom-out-up" data-aos-duration="2000">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum at, dolores aliquid atque, magnam ex quo exercitationem autem et, totam minima? Provident officia voluptates praesentium rerum inventore, est quisquam! Facere.Error, labore, voluptatum, rerum quam perspiciatis impedit eius Rem.
         </p>
       </div>
@@ -210,27 +210,27 @@
     <footer class="footer-container elevation-5">
       <div class="footerContent">
         <div class="content1">
-          <h3>ABOUT US</h3>
-          <h3>AWARDS</h3>
-          <h3>CSR</h3>
-          <h3>NEWS</h3>
-          <h3>SECTORS</h3>
-          <h3>SERVICES</h3>
-          <h3>PEOPLE</h3>
-          <h3>CAREERS</h3>
+          <h3 data-aos="flip-up" data-aos-duration="1000">ABOUT US</h3>
+          <h3 data-aos="flip-up" data-aos-duration="1000">AWARDS</h3>
+          <h3 data-aos="flip-up" data-aos-duration="1000">CSR</h3>
+          <h3 data-aos="flip-up" data-aos-duration="1000">NEWS</h3>
+          <h3 data-aos="flip-up" data-aos-duration="1000">SECTORS</h3>
+          <h3 data-aos="flip-up" data-aos-duration="1000">SERVICES</h3>
+          <h3 data-aos="flip-up" data-aos-duration="1000">PEOPLE</h3>
+          <h3 data-aos="flip-up" data-aos-duration="1000">CAREERS</h3>
         </div>
         <div class="content2">
-          <h3>LATEST NEWS</h3>
-          <h3>UPCPMMING EVENTS</h3>
-          <h3>VIDEOS</h3>
-          <h3>CONTACT</h3>          
+          <h3 data-aos="flip-up" data-aos-duration="1000">LATEST NEWS</h3>
+          <h3 data-aos="flip-up" data-aos-duration="1000">UPCPMMING EVENTS</h3>
+          <h3 data-aos="flip-up" data-aos-duration="1000">VIDEOS</h3>
+          <h3 data-aos="flip-up" data-aos-duration="1000">CONTACT</h3>          
         </div>
         <div class="content3">
-          <h3>FIND US ON</h3>
-          <p><i class="fab fa-facebook-square"></i></p>
-          <p><i class="fab fa-twitter-square"></i></p>
-          <p><i class="fab fa-instagram"></i></p>
-          <p><i class="fab fa-linkedin"></i></p>
+          <h3 data-aos="flip-up" data-aos-duration="1000">FIND US ON</h3>
+          <p data-aos="flip-up" data-aos-duration="1000"><i class="fab fa-facebook-square"></i></p>
+          <p data-aos="flip-up" data-aos-duration="1000"><i class="fab fa-twitter-square"></i></p>
+          <p data-aos="flip-up" data-aos-duration="1000"><i class="fab fa-instagram"></i></p>
+          <p data-aos="flip-up" data-aos-duration="1000"><i class="fab fa-linkedin"></i></p>
         </div>
         <div class="line-2"></div>
       </div>
@@ -321,6 +321,9 @@ export default {
 .heroPic:hover .overlay{
   left: 0;
   transition-duration: 0.9s;
+}
+.big-l{
+  font-weight: bold;
 }
 .article, 
 .article2, 
