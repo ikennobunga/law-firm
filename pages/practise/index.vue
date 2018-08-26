@@ -9,7 +9,7 @@
        <div class="hero-img"></div>
        <div class="about-hero-text">
         <p class="block-2">
-          Al-Ansari & Associates provides legal counsel and services across a diverse range of sectors. Read more to find out why you should choose us as your strategic partner in Qatar.
+          <span class="big-l elevation-5">A</span>l-Ansari & Associates provides legal counsel and services across a diverse range of sectors. Read more to find out why you should choose us as your strategic partner in Qatar.
         </p>
       </div>
     </div>
@@ -297,6 +297,9 @@ export default {
   /*background-color: #D5D5D4;*/
   width: 100%;
   height: 100vh;
+}
+.big-l{
+  font-weight: bold;
 }
 .practice-block{
   grid-column: 4 / span 9;

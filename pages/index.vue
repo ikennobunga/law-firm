@@ -31,7 +31,7 @@
       </div>
       <div class="article-content-2">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit magnam et praesentium dolore nobis tempore itaque, similique doloremque repellendus ut neque eligendi laboriosam officiis architecto culpa nemo velit! Perspiciatis, dolore.
+          <span class="big-l elevation-5">L</span>oremipsum dolor sit amet consectetur adipisicing elit. Impedit magnam et praesentium dolore nobis tempore itaque, similique doloremque repellendus ut neque eligendi laboriosam officiis architecto culpa nemo velit! Perspiciatis, dolore.
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit magnam et praesentium dolore nobis tempore itaque, similique doloremque repellendus ut neque eligendi laboriosam officiis architecto culpa nemo velit! Perspiciatis, dolore.          
         </p>
       </div>
@@ -45,7 +45,7 @@
       </div>
       <div class="article-content-3">
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus maiores minus voluptates molestias ratione nulla, quasi sequi at hic optio recusandae beatae officia iste earum magni alias labore, veniam laudantium!
+          <span class="big-l elevation-5">L</span>orem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus maiores minus voluptates molestias ratione nulla, quasi sequi at hic optio recusandae beatae officia iste earum magni alias labore, veniam laudantium!
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, temporibus. Rem, magnam dolore! Dolores iure a velit aut eaque molestias eligendi id, vitae distinctio ipsa fugiat earum laborum incidunt accusamus.
         </p>
       </div>
@@ -59,7 +59,7 @@
       </div>
       <div class="article-content-4">
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam porro a aliquam cupiditate enim saepe natus in repellendus illum magni quasi veritatis dolorum obcaecati, esse sit, velit placeat optio repellat.
+          <span class="big-l elevation-5">L</span>orem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam porro a aliquam cupiditate enim saepe natus in repellendus illum magni quasi veritatis dolorum obcaecati, esse sit, velit placeat optio repellat.
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium suscipit at, odit magni adipisci vel numquam. Molestias praesentium velit nulla! Voluptatum, dicta tenetur ut illo in commodi aperiam? Repudiandae, perferendis.
         </p>
       </div>
@@ -73,7 +73,7 @@
       </div>
       <div class="article-content-5">
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam quisquam tempore itaque numquam aliquam dolores ex, architecto repudiandae quod quos aliquid, in reprehenderit quia minus dolor dolorem nemo illo temporibus!
+          <span class="big-l elevation-5">L</span>orem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam quisquam tempore itaque numquam aliquam dolores ex, architecto repudiandae quod quos aliquid, in reprehenderit quia minus dolor dolorem nemo illo temporibus!
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor laudantium debitis, recusandae doloremque ipsa, repellendus animi aperiam eveniet, reprehenderit unde harum! Neque ipsam modi eius commodi, quo earum aut blanditiis?
         </p>
       </div>
@@ -86,7 +86,7 @@
       </div>
       <div class="article-content-6">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quibusdam officiis sint quidem rem ab nobis, voluptates ullam rerum ex modi laborum voluptate aliquid incidunt eum eius, nostrum, impedit voluptatem.
+          <span class="big-l elevation-5">L</span>orem ipsum dolor sit amet consectetur adipisicing elit. Dolores quibusdam officiis sint quidem rem ab nobis, voluptates ullam rerum ex modi laborum voluptate aliquid incidunt eum eius, nostrum, impedit voluptatem.
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus adipisci modi, soluta possimus error amet fugiat expedita maiores unde velit, ipsam esse illo nulla dicta consectetur necessitatibus rerum animi! Tempora.
         </p>
       </div>
@@ -99,7 +99,7 @@
       </div>
       <div class="article-content-7">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus esse at perferendis perspiciatis repudiandae eius provident, repellendus, culpa quos quaerat nesciunt. Architecto, molestias voluptatum tempore dolor itaque ut. Atque, quam?
+          <span class="big-l elevation-5">L</span>orem ipsum dolor sit amet consectetur adipisicing elit. Accusamus esse at perferendis perspiciatis repudiandae eius provident, repellendus, culpa quos quaerat nesciunt. Architecto, molestias voluptatum tempore dolor itaque ut. Atque, quam?
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe esse cum aspernatur facere cumque modi ab quos, odit, recusandae voluptatum eligendi fuga rem ut veniam assumenda dicta, dolore cupiditate. Ut?
         </p>
       </div>
@@ -112,7 +112,7 @@
       </div>
       <div class="article-content-8">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus esse at perferendis perspiciatis repudiandae eius provident, repellendus, culpa quos quaerat nesciunt. Architecto, molestias voluptatum tempore dolor itaque ut. Atque, quam?
+          <span class="big-l elevation-5">L</span>orem ipsum dolor sit amet consectetur adipisicing elit. Accusamus esse at perferendis perspiciatis repudiandae eius provident, repellendus, culpa quos quaerat nesciunt. Architecto, molestias voluptatum tempore dolor itaque ut. Atque, quam?
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe esse cum aspernatur facere cumque modi ab quos, odit, recusandae voluptatum eligendi fuga rem ut veniam assumenda dicta, dolore cupiditate. Ut?
         </p>
       </div>
@@ -125,7 +125,7 @@
       </div>
       <div class="article-content-9">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus esse at perferendis perspiciatis repudiandae eius provident, repellendus, culpa quos quaerat nesciunt. Architecto, molestias voluptatum tempore dolor itaque ut. Atque, quam?
+          <span class="big-l elevation-5">L</span>orem ipsum dolor sit amet consectetur adipisicing elit. Accusamus esse at perferendis perspiciatis repudiandae eius provident, repellendus, culpa quos quaerat nesciunt. Architecto, molestias voluptatum tempore dolor itaque ut. Atque, quam?
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe esse cum aspernatur facere cumque modi ab quos, odit, recusandae voluptatum eligendi fuga rem ut veniam assumenda dicta, dolore cupiditate. Ut?
         </p>
       </div>
@@ -138,7 +138,7 @@
       </div>
       <div class="article-content-10">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus esse at perferendis perspiciatis repudiandae eius provident, repellendus, culpa quos quaerat nesciunt. Architecto, molestias voluptatum tempore dolor itaque ut. Atque, quam?
+          <span class="big-l elevation-5">L</span>orem ipsum dolor sit amet consectetur adipisicing elit. Accusamus esse at perferendis perspiciatis repudiandae eius provident, repellendus, culpa quos quaerat nesciunt. Architecto, molestias voluptatum tempore dolor itaque ut. Atque, quam?
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe esse cum aspernatur facere cumque modi ab quos, odit, recusandae voluptatum eligendi fuga rem ut veniam assumenda dicta, dolore cupiditate. Ut?
         </p>
       </div>
@@ -321,6 +321,9 @@ export default {
 .heroPic:hover .overlay{
   left: 0;
   transition-duration: 0.9s;
+}
+.big-l{
+  font-weight: bold;
 }
 .article, 
 .article2, 

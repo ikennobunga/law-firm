@@ -8,7 +8,7 @@
       </div>
       <div class="about-hero-text">
         <p class="block-2">
-          We are proud of the depth and range of our legal services which includes assisting our clients with regulatory and compliance issues and investigations related to financial crimes. Our team can assist you with issues such as understanding local anti-money laundering laws and investigations.
+          <span class="big-l elevation-5">W</span>e are proud of the depth and range of our legal services which includes assisting our clients with regulatory and compliance issues and investigations related to financial crimes. Our team can assist you with issues such as understanding local anti-money laundering laws and investigations.
           We are proud of the depth and range of our legal services which includes assisting our clients with regulatory and compliance issues and investigation.
         </p>
       </div>
@@ -335,6 +335,9 @@ export default {
   grid-template-rows: repeat(12, 1fr);
   width: 100%;
   height: 100vh;
+}
+.big-l{
+  font-weight: bold;
 }
 .about-block{
   grid-column: 4 / span 9;

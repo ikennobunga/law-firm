@@ -7,7 +7,9 @@
       </div>
       <div class="hero-img"></div>
       <div class="team-hero-text">
-        <p class="block-2">Behind every successful businesss you will find a passionate dedicated not only a team but a family</p>
+        <p class="block-2">
+          <span class="big-l elevation-5">B</span>ehind every successful businesss you will find a passionate dedicated not only a team but a family
+        </p>
       </div>
     </div>
     <!-- team-content-1 -->
@@ -283,6 +285,9 @@ export default {
   width: 100%;
   height: 100vh;
   position: relative;
+}
+.big-l{
+  font-weight: bold;
 }
 .team-block{
   grid-column: 4 / span 9;
