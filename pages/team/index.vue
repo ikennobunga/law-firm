@@ -7,13 +7,7 @@
       </div>
       <div class="hero-img"></div>
       <div class="team-hero-text">
-<<<<<<< HEAD
         <p class="block-2">Behind every successful businesss you will find a passionate dedicated not only a team but a family</p>
-=======
-        <p class="block-2">
-          <span class="big-l elevation-5">B</span>ehind every successful businesss you will find a passionate dedicated not only a team but a family
-        </p>
->>>>>>> scrollmagic-greensock
       </div>
     </div>
     <!-- team-content-1 -->
@@ -203,7 +197,6 @@
      <footer class="footer-container elevation-0">
       <div class="footerContent">
         <div class="content1">
-<<<<<<< HEAD
           <h3>ABOUT US</h3>
           <h3>AWARDS</h3>
           <h3>CSR</h3>
@@ -227,7 +220,6 @@
           <p><i class="fab fa-linkedin"></i></p>
         </div>
         <div class="line-2"></div>
-=======
           <h3 data-aos="flip-up" data-aos-duration="1000">ABOUT US</h3>
           <h3 data-aos="flip-up" data-aos-duration="1000">AWARDS</h3>
           <h3 data-aos="flip-up" data-aos-duration="1000">CSR</h3>
@@ -251,7 +243,7 @@
           <p data-aos="flip-up" data-aos-duration="1000"><i class="fab fa-linkedin"></i></p>
         </div>
         <div class="line-2" data-aos="fade-right"></div>
->>>>>>> scrollmagic-greensock
+
       </div>
     </footer>
   </v-app>
@@ -259,46 +251,8 @@
 
 <script>
 export default {
-<<<<<<< HEAD
-  /* transition: {
-=======
-   transition: {
->>>>>>> scrollmagic-greensock
-    mode: 'out-in',
-    css: false,
-    beforeEnter (el) {
-      TweenMax.set(el, {
-        x: window.innerWidth * 1.5,
-        scale: .8,
-        transformOrigin: '50% 50%'
-      })
-    },
-    enter (el, done) {
-      TweenMax.to(el, 0.5, {
-        x: 0,
-        // transformOrigin: '50% 50%',
-        ease: Power4.easeOut
-      })
-      TweenMax.to(el, 1, {
-        scale: 1  ,
-        ease: Power4.easeOut
-      })
-      done()
-    },
-    leave (el, done) {
-      TweenMax.fromTo(el, 1, {
-        autoAlpha: 1
-      }, {
-          autoAlpha: 0,
-          ease: Power4.easeOut,
-        })
-      done()
-    }
-<<<<<<< HEAD
-  } */
-=======
-  } ,
->>>>>>> scrollmagic-greensock
+   
+
   methods: {
     animate: function () {
       let tl = new TimelineMax()
@@ -306,10 +260,6 @@ export default {
           .from('.heading', .5, {scale: .9})
           .from('.block', .5, {scale: .9})
           .from('.block-2', .5, {scale: .9})
-<<<<<<< HEAD
-
-=======
->>>>>>> scrollmagic-greensock
     }
   },
   mounted () {
@@ -328,12 +278,9 @@ export default {
   height: 100vh;
   position: relative;
 }
-<<<<<<< HEAD
-=======
 .big-l{
   font-weight: bold;
 }
->>>>>>> scrollmagic-greensock
 .team-block{
   grid-column: 4 / span 9;
   grid-row: 1 / span 4;
@@ -370,10 +317,7 @@ export default {
 .block-2{
   font-family: 'montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 1.4rem;
-<<<<<<< HEAD
-=======
   letter-spacing: .1rem;
->>>>>>> scrollmagic-greensock
   color: #212D3B;
 }
 /* team-content */
