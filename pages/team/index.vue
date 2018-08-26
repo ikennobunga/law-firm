@@ -251,8 +251,50 @@
 
 <script>
 export default {
-   
-
+  transition: {
+    mode: 'out-in',
+    css: false,
+    beforeEnter (el) {
+      TweenMax.set(el, {
+        x: window.innerWidth * 1.5,
+        scale: .8,
+        transformOrigin: '50% 50%'
+      })
+    },
+    enter (el, done) {
+      TweenMax.to(el, 0.5, {
+        x: 0,
+        // transformOrigin: '50% 50%',
+        ease: Power4.easeOut
+      })
+      TweenMax.to(el, 1, {
+        scale: 1,
+        ease: Power4.easeOut
+      })
+      done()
+    },
+    leave (el, done) {
+      TweenMax.fromTo(el, 1, {
+        autoAlpha: 1
+      }, {
+          autoAlpha: 0,
+          ease: Power4.easeOut,
+        })
+      done()
+    }
+  },
+  methods: {
+    animate: function () {
+      let tl = new TimelineMax()
+       tl.from('.practice-block', .4, {scale: 0,})
+         .from('.heading', .5, {scale: .9})
+         .from('.block', .5, {scale: .9})
+         .from('.block-2', .6, {scale: .9})
+    }
+  },
+  mounted () {
+    this.animate()
+  }, 
   methods: {
     animate: function () {
       let tl = new TimelineMax()
