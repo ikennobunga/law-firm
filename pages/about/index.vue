@@ -9,7 +9,7 @@
       <div class="about-hero-text">
         <p class="block-2">
           We are proud of the depth and range of our legal services which includes assisting our clients with regulatory and compliance issues and investigations related to financial crimes. Our team can assist you with issues such as understanding local anti-money laundering laws and investigations.
-          We are proud of the depth and range of our legal services which includes assisting our clients with regulatory and compliance issues and investiga.
+          We are proud of the depth and range of our legal services which includes assisting our clients with regulatory and compliance issues and investigation.
         </p>
       </div>
       <div class="hero-img"></div>
@@ -160,27 +160,27 @@
     <footer class="footer-container elevation-5">
       <div class="footerContent">
         <div class="content1">
-          <h3>ABOUT US</h3>
-          <h3>AWARDS</h3>
-          <h3>CSR</h3>
-          <h3>NEWS</h3>
-          <h3>SECTORS</h3>
-          <h3>SERVICES</h3>
-          <h3>PEOPLE</h3>
-          <h3>CAREERS</h3>
+          <h3 data-aos="flip-up" data-aos-duration="1000">ABOUT US</h3>
+          <h3 data-aos="flip-up" data-aos-duration="1000">AWARDS</h3>
+          <h3 data-aos="flip-up" data-aos-duration="1000">CSR</h3>
+          <h3 data-aos="flip-up" data-aos-duration="1000">NEWS</h3>
+          <h3 data-aos="flip-up" data-aos-duration="1000">SECTORS</h3>
+          <h3 data-aos="flip-up" data-aos-duration="1000">SERVICES</h3>
+          <h3 data-aos="flip-up" data-aos-duration="1000">PEOPLE</h3>
+          <h3 data-aos="flip-up" data-aos-duration="1000">CAREERS</h3>
         </div>
         <div class="content2">
-          <h3>LATEST NEWS</h3>
-          <h3>UPCPMMING EVENTS</h3>
-          <h3>VIDEOS</h3>
-          <h3>CONTACT</h3>          
+          <h3 data-aos="flip-up" data-aos-duration="1000">LATEST NEWS</h3>
+          <h3 data-aos="flip-up" data-aos-duration="1000">UPCPMMING EVENTS</h3>
+          <h3 data-aos="flip-up" data-aos-duration="1000">VIDEOS</h3>
+          <h3 data-aos="flip-up" data-aos-duration="1000">CONTACT</h3>          
         </div>
         <div class="content3">
-          <h3>FIND US ON</h3>
-          <p><i class="fab fa-facebook-square"></i></p>
-          <p><i class="fab fa-twitter-square"></i></p>
-          <p><i class="fab fa-instagram"></i></p>
-          <p><i class="fab fa-linkedin"></i></p>
+          <h3 data-aos="flip-up" data-aos-duration="1000">FIND US ON</h3>
+          <p data-aos="flip-up" data-aos-duration="1000"><i class="fab fa-facebook-square"></i></p>
+          <p data-aos="flip-up" data-aos-duration="1000"><i class="fab fa-twitter-square"></i></p>
+          <p data-aos="flip-up" data-aos-duration="1000"><i class="fab fa-instagram"></i></p>
+          <p data-aos="flip-up" data-aos-duration="1000"><i class="fab fa-linkedin"></i></p>
         </div>
         <div class="line-2"></div>
       </div>
@@ -200,11 +200,11 @@ export default {
   data () {
     return {
       items: [
-        { src: '', title: '4K PRO BONO FOR INDIVIDUALS' },
-        { src: '', title: '4K PRO BONO FOR CORPORATE' },
-        { src: '', title: '5K PRO BONO FOR SMES' },
-        { src: '', title: '3K PRO BONO FOR WOMEN' },
-        { src: '', title: '2K PRO BONO FOR LEAGAL EDUCATION' }
+        { src: '/undraw_a_day_at_the_park_owg1.svg', title: '4K PRO BONO FOR INDIVIDUALS' },
+        { src: '/undraw_Building_leu4.svg', title: '4K PRO BONO FOR CORPORATE' },
+        { src: '/undraw_finance_0bdk.svg', title: '5K PRO BONO FOR SMES' },
+        { src: '/undraw_blogging_vpvv.svg', title: '3K PRO BONO FOR WOMEN' },
+        { src: '/undraw_co-working_825n.svg', title: '2K PRO BONO FOR LEAGAL EDUCATION' }
       ],
       tab: null,
       contents: [
@@ -264,6 +264,38 @@ export default {
           id: 11
         }
       ]
+    }
+  },
+  transition: {
+    mode: 'out-in',
+    css: false,
+    beforeEnter (el) {
+      TweenMax.set(el, {
+        x: window.innerWidth * 1.5,
+        scale: .8,
+        transformOrigin: '50% 50%'
+      })
+    },
+    enter (el, done) {
+      TweenMax.to(el, 0.5, {
+        x: 0,
+        // transformOrigin: '50% 50%',
+        ease: Power4.easeOut
+      })
+      TweenMax.to(el, 1, {
+        scale: 1,
+        ease: Power4.easeOut
+      })
+      done()
+    },
+    leave (el, done) {
+      TweenMax.fromTo(el, 1, {
+        autoAlpha: 1
+      }, {
+          autoAlpha: 0,
+          ease: Power4.easeOut,
+        })
+      done()
     }
   },
   methods: {
@@ -341,6 +373,7 @@ export default {
 .block-2{
   font-family: 'montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 1.4rem;
+  letter-spacing: .1rem;
   color: #212D3B;
 }
 /*----------FOUNDERS----------*/
@@ -375,7 +408,7 @@ export default {
 }
 .card-1-img{
   background-color: aquamarine;
-  background-image: url('/salman-2.jpg');
+  background-image: url('/joanna-nix-474910-unsplash.jpg');
   background-size: 100%;
   background-position: 30% 30%;
   width: 100%;
@@ -394,7 +427,7 @@ export default {
   font-family: 'montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .card-2-img{
-  background-image: url('/buahmed-min.jpg');
+  background-image: url('/nick-karvounis-423669-unsplash.jpg');
   background-size: 100%;
   background-position: 20% 20%;
   width: 100%;

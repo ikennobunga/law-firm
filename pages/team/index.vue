@@ -197,29 +197,29 @@
      <footer class="footer-container elevation-0">
       <div class="footerContent">
         <div class="content1">
-          <h3>ABOUT US</h3>
-          <h3>AWARDS</h3>
-          <h3>CSR</h3>
-          <h3>NEWS</h3>
-          <h3>SECTORS</h3>
-          <h3>SERVICES</h3>
-          <h3>PEOPLE</h3>
-          <h3>CAREERS</h3>
+          <h3 data-aos="flip-up" data-aos-duration="1000">ABOUT US</h3>
+          <h3 data-aos="flip-up" data-aos-duration="1000">AWARDS</h3>
+          <h3 data-aos="flip-up" data-aos-duration="1000">CSR</h3>
+          <h3 data-aos="flip-up" data-aos-duration="1000">NEWS</h3>
+          <h3 data-aos="flip-up" data-aos-duration="1000">SECTORS</h3>
+          <h3 data-aos="flip-up" data-aos-duration="1000">SERVICES</h3>
+          <h3 data-aos="flip-up" data-aos-duration="1000">PEOPLE</h3>
+          <h3 data-aos="flip-up" data-aos-duration="1000">CAREERS</h3>
         </div>
         <div class="content2">
-          <h3>LATEST NEWS</h3>
-          <h3>UPCPMMING EVENTS</h3>
-          <h3>VIDEOS</h3>
-          <h3>CONTACT</h3>          
+          <h3 data-aos="flip-up" data-aos-duration="1000">LATEST NEWS</h3>
+          <h3 data-aos="flip-up" data-aos-duration="1000">UPCPMMING EVENTS</h3>
+          <h3 data-aos="flip-up" data-aos-duration="1000">VIDEOS</h3>
+          <h3 data-aos="flip-up" data-aos-duration="1000">CONTACT</h3>          
         </div>
         <div class="content3">
-          <h3>FIND US ON</h3>
-          <p><i class="fab fa-facebook-square"></i></p>
-          <p><i class="fab fa-twitter-square"></i></p>
-          <p><i class="fab fa-instagram"></i></p>
-          <p><i class="fab fa-linkedin"></i></p>
+          <h3 data-aos="flip-up" data-aos-duration="1000">FIND US ON</h3>
+          <p data-aos="flip-up" data-aos-duration="1000"><i class="fab fa-facebook-square"></i></p>
+          <p data-aos="flip-up" data-aos-duration="1000"><i class="fab fa-twitter-square"></i></p>
+          <p data-aos="flip-up" data-aos-duration="1000"><i class="fab fa-instagram"></i></p>
+          <p data-aos="flip-up" data-aos-duration="1000"><i class="fab fa-linkedin"></i></p>
         </div>
-        <div class="line-2"></div>
+        <div class="line-2" data-aos="fade-right"></div>
       </div>
     </footer>
   </v-app>
@@ -227,33 +227,38 @@
 
 <script>
 export default {
-  /* transition: {
+   transition: {
     mode: 'out-in',
     css: false,
     beforeEnter (el) {
       TweenMax.set(el, {
-        transformPerspective: 600,
-        perspective: 300,
-        transformStyle: 'preserve-3d'
+        x: window.innerWidth * 1.5,
+        scale: .8,
+        transformOrigin: '50% 50%'
       })
     },
     enter (el, done) {
+      TweenMax.to(el, 0.5, {
+        x: 0,
+        // transformOrigin: '50% 50%',
+        ease: Power4.easeOut
+      })
       TweenMax.to(el, 1, {
-        rotationY: 360,
-        transformOrigin: '50% 50%',
-        ease: Back.easeOut
+        scale: 1  ,
+        ease: Power4.easeOut
       })
       done()
     },
     leave (el, done) {
-      TweenMax.to(el, 1, {
-        rotationY: 0,
-        transformOrigin: '50% 50%',
-        ease: Back.easeIn
-      })
+      TweenMax.fromTo(el, 1, {
+        autoAlpha: 1
+      }, {
+          autoAlpha: 0,
+          ease: Power4.easeOut,
+        })
       done()
     }
-  } */
+  } ,
   methods: {
     animate: function () {
       let tl = new TimelineMax()
@@ -315,6 +320,7 @@ export default {
 .block-2{
   font-family: 'montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 1.4rem;
+  letter-spacing: .1rem;
   color: #212D3B;
 }
 /* team-content */
