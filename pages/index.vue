@@ -11,9 +11,9 @@
     <!--ARTICLE-->
     <section class="article">
       <div class="article-content-heading">
-        <div><h1>-WHO WE ARE</h1><div class="circle"><h1>1</h1></div></div>
-        <div><h1>-WHAT WE DO</h1><div class="circle"><h1>2</h1></div></div>
-        <div><h1>-WHAT TO EXPECT</h1><div class="circle"><h1>3</h1></div></div>
+        <div><h1>-WHO WE ARE.</h1><div class="circle"><h1>1</h1></div></div>
+        <div><h1>-WHAT WE DO.</h1><div class="circle"><h1>2</h1></div></div>
+        <div><h1>-WHAT TO EXPECT.</h1><div class="circle"><h1>3</h1></div></div>
       </div>
       <div class="article-text">
         <p>
