@@ -28,13 +28,13 @@
         </div>
         <team id="social">
           <p>
-            <i class="fab fa-facebook-square"></i>
+            <i class="fab fabz fa-facebook-square"></i>
           </p>
           <p>
-            <i class="fab fa-linkedin"></i>
+            <i class="fab fabz fa-linkedin"></i>
           </p>
           <p>
-            <i class="fab fa-instagram"></i>
+            <i class="fab fabz fa-instagram"></i>
           </p>
         </team>
         <div class="team-img-1"></div>
@@ -60,13 +60,13 @@
         </div>
         <team id="social">
           <p>
-            <i class="fab fa-facebook-square"></i>
+            <i class="fab fabz fa-facebook-square"></i>
           </p>
           <p>
-            <i class="fab fa-linkedin"></i>
+            <i class="fab fabz fa-linkedin"></i>
           </p>
           <p>
-            <i class="fab fa-instagram"></i>
+            <i class="fab fabz fa-instagram"></i>
           </p>
         </team>
         <div class="team-img-2"></div>
@@ -92,13 +92,13 @@
         </div>
         <team id="social">
           <p>
-            <i class="fab fa-facebook-square"></i>
+            <i class="fab fabz fa-facebook-square"></i>
           </p>
           <p>
-            <i class="fab fa-linkedin"></i>
+            <i class="fab fabz fa-linkedin"></i>
           </p>
           <p>
-            <i class="fab fa-instagram"></i>
+            <i class="fab fabz fa-instagram"></i>
           </p>
         </team>
         <div class="team-img-3"></div>
@@ -122,6 +122,17 @@
             miller@pitstop.com
           </p>
         </div>
+        <team id="social">
+          <p>
+            <i class="fab fabz fa-facebook-square"></i>
+          </p>
+          <p>
+            <i class="fab fabz fa-linkedin"></i>
+          </p>
+          <p>
+            <i class="fab fabz fa-instagram"></i>
+          </p>
+        </team>
         <div class="team-img-4"></div>
         <div class="team-bio">
           <p id="teamcontact">ABBYGAL SHARON WILLAMS</p>
@@ -145,13 +156,13 @@
         </div>
         <team id="social">
           <p>
-            <i class="fab fa-facebook-square"></i>
+            <i class="fab fabz fa-facebook-square"></i>
           </p>
           <p>
-            <i class="fab fa-linkedin"></i>
+            <i class="fab fabz fa-linkedin"></i>
           </p>
           <p>
-            <i class="fab fa-instagram"></i>
+            <i class="fab fabz fa-instagram"></i>
           </p>
         </team>
         <div class="team-img-5"></div>
@@ -177,13 +188,13 @@
         </div>
         <team id="social">
           <p>
-            <i class="fab fa-facebook-square"></i>
+            <i class="fab fabz fa-facebook-square"></i>
           </p>
           <p>
-            <i class="fab fa-linkedin"></i>
+            <i class="fab fabz fa-linkedin"></i>
           </p>
           <p>
-            <i class="fab fa-instagram"></i>
+            <i class="fab fabz fa-instagram"></i>
           </p>
         </team>
         <div class="team-img-6"></div>
@@ -221,7 +232,7 @@
           <p data-aos="flip-up" data-aos-duration="1000"><i class="fab fa-instagram"></i></p>
           <p data-aos="flip-up" data-aos-duration="1000"><i class="fab fa-linkedin"></i></p>
         </div>
-        <div class="line-2" data-aos="fade-right"></div>
+        <div class="line-2"></div>
       </div>
     </footer>
   </v-app>
@@ -362,6 +373,9 @@ export default {
 .fas{
   margin: 0 0 0 15px;
   font-size: 1.1rem
+}
+.fab.fabz{
+  color: #FDF3E7;
 }
 /* team-content-1 */
 .team-content-1{
