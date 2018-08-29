@@ -189,7 +189,7 @@
 </template>
 
 <script>
-import { TweenMax } from 'gsap'
+// import { TweenMax } from 'gsap'
 import Home from '@/components/Home'
 import Card3 from '@/components/Card3'
 export default {
