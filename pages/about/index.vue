@@ -6,13 +6,13 @@
         <h1 class="heading">ABOUT</h1>
         <p class="block">Al-Ansari & Associates</p>
       </div>
+      <div class="hero-img"></div>
       <div class="about-hero-text">
         <p class="block-2">
           <span class="big-l elevation-5">W</span>e are proud of the depth and range of our legal services which includes assisting our clients with regulatory and compliance issues and investigations related to financial crimes. Our team can assist you with issues such as understanding local anti-money laundering laws and investigations.
           We are proud of the depth and range of our legal services which includes assisting our clients with regulatory and compliance issues and investigation.
         </p>
       </div>
-      <div class="hero-img"></div>
     </div>
 
     <!--founders-->
@@ -30,7 +30,11 @@
           <P>MANAGING DIRECTOR</P>
           <p>shawnkemp@gmail.com</p>
           <p>+974 444 333 222</p>
-          <p>fb twitter linked-in </p>
+          <div class="social">
+           <p><i class="fab fa-facebook-square"></i></p>
+           <p><i class="fab fa-twitter-square"></i></p>
+           <p><i class="fab fa-instagram"></i></p>
+          </div>
         </div>
         <div class="card-1-img elevation-4"></div>
       </div>
@@ -41,7 +45,11 @@
           <P>MANAGING DIRECTOR</P>
           <p>carlwinslow@gmail.com</p>
           <p>+974 444 333 222</p>
-          <p>fb twitter linked-in </p>
+          <div class="social">
+           <p><i class="fab fa-facebook-square"></i></p>
+           <p><i class="fab fa-twitter-square"></i></p>
+           <p><i class="fab fa-instagram"></i></p>
+          </div>
         </div>
         <div class="card-2-img elevation-4"></div>
       </div>
@@ -435,6 +443,11 @@ export default {
   background-position: 20% 20%;
   width: 100%;
   height: 100%;
+}
+.social{
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
 }
 /*----------OUR VALUES----------*/
 .our-values{
